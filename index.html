@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PYROS 3D | VISUAL ARTIST</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;700;900&family=Syne:wght@400;700;800&family=DynaPuff:wght@600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <canvas id="bg-canvas"></canvas>
+
+    <div class="cursor-glow"></div>
+
+    <div class="app-container">
+        <!-- SIDEBAR NAVIGATION -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <img src="assets/logo/pyros_logo.png" alt="PYROS 3D LOGO" class="sidebar-logo">
+            </div>
+
+            <nav class="sidebar-nav">
+                <!-- MAIN ACCORDION: IMPRESIÓN 3D -->
+                <div class="sidebar-accordion">
+                    <button class="sidebar-accordion-header">
+                        <span data-i18n="menu_3d">IMPRESIÓN 3D</span>
+                        <span class="chevron">▼</span>
+                    </button>
+                    <div class="sidebar-accordion-content">
+                        <a href="#starwars" class="sidebar-link active" data-target="starwars" data-i18n="menu_sw">Star Wars</a>
+
+                        <!-- Pokemon Collection Link -->
+                        <a href="#pokemon-landing" class="sidebar-link" data-target="pokemon-landing" data-i18n="menu_pkmn">Pokemon
+                            Collection</a>
+
+                        <a href="#looney" class="sidebar-link" data-target="looney" data-i18n="menu_looney">Looney Tunes Rockstar</a>
+                        <a href="#urban-vibes" class="sidebar-link" data-target="urban-vibes" data-i18n="menu_urban">Urban Vibes</a>
+                        <a href="#amigurumi-landing" class="sidebar-link" data-target="amigurumi-landing" data-i18n="menu_ami">Amigurumi</a>
+                    </div>
+                </div>
+
+                <a href="#social" class="sidebar-link-main" data-i18n="menu_follow">SÍGUEME</a>
+                <a href="#contact" class="sidebar-link-main highlight" data-i18n="menu_contact">CONTACTO</a>
+
+                <div class="lang-switcher">
+                    <img src="assets/flags/es.png" class="lang-flag" data-lang="es" alt="Español" title="Español">
+                    <img src="assets/flags/en.png" class="lang-flag" data-lang="en" alt="English" title="English">
+                    <img src="assets/flags/fr.png" class="lang-flag" data-lang="fr" alt="Français" title="Français">
+                    <img src="assets/flags/it.png" class="lang-flag" data-lang="it" alt="Italiano" title="Italiano">
+                    <img src="assets/flags/pt.png" class="lang-flag" data-lang="pt" alt="Português" title="Português">
+                    <img src="assets/flags/de.png" class="lang-flag" data-lang="de" alt="Deutsch" title="Deutsch">
+                </div>
+            </nav>
+
+            <div class="sidebar-footer">
+                <p>© 2026 PYROS 3D</p>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT AREA -->
+        <main class="main-content">
+            <section class="hero">
+                <div class="hero-bg-glow"></div>
+                <div class="hero-content">
+                    <h1 class="glitch-text" data-text="PYROS 3D">PYROS 3D</h1>
+                    <p class="subtitle" data-i18n="hero_sub">Rompiendo la realidad. Arte visual que atrapa.</p>
+                </div>
+            </section>
+
+            <div id="content-panels">
+                <!-- STAR WARS PANEL -->
+                <section id="starwars" class="content-panel active">
+                    <h2 class="section-title">
+                        <span style="color:#FFE81F; -webkit-text-stroke:0;">STAR WARS</span>
+                        <span style="color:#900020; -webkit-text-stroke:0;">BY MIPA TOYS</span>
+                    </h2>
+                    <div class="gallery-grid">
+                        <div class="gallery-item"><video src="assets/starwars/vader.mp4" muted loop playsinline></video>
+                            <div class="overlay">
+                                <h3>DARTH VADER</h3>
+                            </div>
+                        </div>
+                        <div class="gallery-item"><video src="assets/starwars/maul.mp4" muted loop playsinline></video>
+                            <div class="overlay">
+                                <h3>DARTH MAUL</h3>
+                            </div>
+                        </div>
+                        <div class="gallery-item"><video src="assets/starwars/boba.mp4" muted loop playsinline></video>
+                            <div class="overlay">
+                                <h3>BOBA FETT</h3>
+                            </div>
+                        </div>
+                        <div class="gallery-item"><video src="assets/starwars/grievous.mp4" muted loop
+                                playsinline></video>
+                            <div class="overlay">
+                                <h3>GEN. GRIEVOUS</h3>
+                            </div>
+                        </div>
+                        <div class="gallery-item"><video src="assets/starwars/Luke Skywalker & R2-D2.mp4" muted loop
+                                playsinline></video>
+                            <div class="overlay">
+                                <h3>LUKE SKYWALKER & R2-D2</h3>
+                            </div>
+                        </div>
+                        <div class="gallery-item"><video src="assets/starwars/obiwan.mp4" muted loop
+                                playsinline></video>
+                            <div class="overlay">
+                                <h3>OBI WAN</h3>
+                            </div>
+                        </div>
+                        <div class="gallery-item"><video src="assets/starwars/thrawn.mp4" muted loop
+                                playsinline></video>
+                            <div class="overlay">
+                                <h3>ADMIRAL THRAWN</h3>
+                            </div>
+                        </div>
+                        <div class="gallery-item"><video src="assets/starwars/Ahsoka.mp4" muted loop
+                                playsinline></video>
+                            <div class="overlay">
+                                <h3>AHSOKA TANO</h3>
+                            </div>
+                        </div>
+                        <div class="gallery-item"><video src="assets/starwars/Mandalorian & Grogu.mp4" muted loop
+                                playsinline></video>
+                            <div class="overlay">
+                                <h3>MANDALORIAN & GROGU</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- POKEMON LANDING (NEW) -->
+                <section id="pokemon-landing" class="content-panel" style="text-align:center; padding-top:4rem;">
+                    <h2 class="section-title pokeball-text">POKEMON COLLECTION</h2>
+                    <div class="landing-grid"
+                        style="display:flex; justify-content:center; gap:2rem; flex-wrap:wrap; margin-top:3rem;">
+                        <div class="landing-card" onclick="navigateToSection('pokemon-n3d')">
+                            <h3>N3D DESIGNS</h3>
+                            <p data-i18n="explore_col">Explorar Colección</p>
+                        </div>
+                        <div class="landing-card" onclick="navigateToSection('pokemon-cpl')">
+                            <h3>CPL DESIGNS</h3>
+                            <p data-i18n="explore_col">Explorar Colección</p>
+                        </div>
+                        <div class="landing-card" onclick="navigateToSection('pokemon-maple')">
+                            <h3>MAPLE3DPRINTING DESIGNS</h3>
+                            <p data-i18n="explore_col">Explorar Colección</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- POKEMON PANEL -->
+                <!-- N3D DESIGNER PANEL -->
+                <section id="pokemon-n3d" class="content-panel">
+                    <h2 class="section-title pokeball-text">N3D COLLECTION</h2>
+                    <div class="search-container">
+                        <input type="text" id="n3d-search-input" class="search-input"
+                            placeholder="Buscar en N3D Designer..." data-i18n-placeholder="search_n3d">
+                        <select id="n3d-gen-filter" class="filter-dropdown">
+                            <option value="all" data-i18n="all_gen">Todas las Gen</option>
+                            <option value="1" data-i18n="gen_1">Gen 1</option><option value="2" data-i18n="gen_2">Gen 2</option><option value="3" data-i18n="gen_3">Gen 3</option>
+                            <option value="4" data-i18n="gen_4">Gen 4</option><option value="5" data-i18n="gen_5">Gen 5</option><option value="6" data-i18n="gen_6">Gen 6</option>
+                            <option value="7" data-i18n="gen_7">Gen 7</option><option value="8" data-i18n="gen_8">Gen 8</option><option value="9" data-i18n="gen_9">Gen 9</option>
+                        </select>
+                        <select id="n3d-type-filter" class="filter-dropdown">
+                            <option value="all" data-i18n="all_types">Todos los Tipos</option>
+                            <option value="Normal" data-i18n="type_normal">Normal</option><option value="Fuego" data-i18n="type_fuego">Fuego</option><option value="Agua" data-i18n="type_agua">Agua</option>
+                            <option value="Eléctrico" data-i18n="type_electrico">Eléctrico</option><option value="Planta" data-i18n="type_planta">Planta</option><option value="Hielo" data-i18n="type_hielo">Hielo</option>
+                            <option value="Lucha" data-i18n="type_lucha">Lucha</option><option value="Veneno" data-i18n="type_veneno">Veneno</option><option value="Tierra" data-i18n="type_tierra">Tierra</option>
+                            <option value="Volador" data-i18n="type_volador">Volador</option><option value="Psíquico" data-i18n="type_psiquico">Psíquico</option><option value="Bicho" data-i18n="type_bicho">Bicho</option>
+                            <option value="Roca" data-i18n="type_roca">Roca</option><option value="Fantasma" data-i18n="type_fantasma">Fantasma</option><option value="Dragón" data-i18n="type_dragon">Dragón</option>
+                            <option value="Siniestro" data-i18n="type_siniestro">Siniestro</option><option value="Acero" data-i18n="type_acero">Acero</option><option value="Hada" data-i18n="type_hada">Hada</option><option value="Especial" data-i18n="type_especial">Especial</option>
+                        </select>
+                    </div>
+                    <div id="n3d-grid" class="gallery-grid">
+                        <!-- JS populated -->
+                    </div>
+                </section>
+
+                <!-- CPL DESIGNER PANEL -->
+                <section id="pokemon-cpl" class="content-panel">
+                    <h2 class="section-title pokeball-text">CPL COLLECTION</h2>
+                    <div class="search-container">
+                        <input type="text" id="cpl-search-input" class="search-input"
+                            placeholder="Buscar en CPL..." style="border-color: rgba(57, 255, 20, 0.3);" data-i18n-placeholder="search_cpl">
+                        <select id="cpl-gen-filter" class="filter-dropdown" style="border-color: rgba(57, 255, 20, 0.3);">
+                            <option value="all" data-i18n="all_gen">Todas las Gen</option>
+                            <option value="1" data-i18n="gen_1">Gen 1</option><option value="2" data-i18n="gen_2">Gen 2</option><option value="3" data-i18n="gen_3">Gen 3</option>
+                            <option value="4" data-i18n="gen_4">Gen 4</option><option value="5" data-i18n="gen_5">Gen 5</option><option value="6" data-i18n="gen_6">Gen 6</option>
+                            <option value="7" data-i18n="gen_7">Gen 7</option><option value="8" data-i18n="gen_8">Gen 8</option><option value="9" data-i18n="gen_9">Gen 9</option>
+                        </select>
+                        <select id="cpl-type-filter" class="filter-dropdown" style="border-color: rgba(57, 255, 20, 0.3);">
+                            <option value="all" data-i18n="all_types">Todos los Tipos</option>
+                            <option value="Normal" data-i18n="type_normal">Normal</option><option value="Fuego" data-i18n="type_fuego">Fuego</option><option value="Agua" data-i18n="type_agua">Agua</option>
+                            <option value="Eléctrico" data-i18n="type_electrico">Eléctrico</option><option value="Planta" data-i18n="type_planta">Planta</option><option value="Hielo" data-i18n="type_hielo">Hielo</option>
+                            <option value="Lucha" data-i18n="type_lucha">Lucha</option><option value="Veneno" data-i18n="type_veneno">Veneno</option><option value="Tierra" data-i18n="type_tierra">Tierra</option>
+                            <option value="Volador" data-i18n="type_volador">Volador</option><option value="Psíquico" data-i18n="type_psiquico">Psíquico</option><option value="Bicho" data-i18n="type_bicho">Bicho</option>
+                            <option value="Roca" data-i18n="type_roca">Roca</option><option value="Fantasma" data-i18n="type_fantasma">Fantasma</option><option value="Dragón" data-i18n="type_dragon">Dragón</option>
+                            <option value="Siniestro" data-i18n="type_siniestro">Siniestro</option><option value="Acero" data-i18n="type_acero">Acero</option><option value="Hada" data-i18n="type_hada">Hada</option><option value="Especial" data-i18n="type_especial">Especial</option>
+                        </select>
+                    </div>
+                    <div id="cpl-grid" class="gallery-grid">
+                        <!-- JS populated -->
+                    </div>
+                </section>
+
+                <!-- MAPLE3DPRINTING PANEL -->
+                <section id="pokemon-maple" class="content-panel">
+                    <h2 class="section-title">
+                        <span style="color:#FFD700; -webkit-text-stroke:0;">MAPLE</span><span
+                            style="color:#555555; -webkit-text-stroke:0;">3D</span><span
+                            style="color:#FFFFFF; -webkit-text-stroke:0;">PRINTING</span>
+                        <span style="color:#FF0000; -webkit-text-stroke:0;">DESIGNS</span>
+                    </h2>
+                    <div id="maple-grid" class="gallery-grid">
+                        <!-- JS populated -->
+                    </div>
+                </section>
+
+                <!-- LOONEY PANEL -->
+                <section id="looney" class="content-panel">
+                    <h2 class="section-title">
+                        <span style="color:#FF5F1F; -webkit-text-stroke:0;">LOONEY TUNES</span>
+                        <span style="color:#444444; -webkit-text-stroke:0;">ROCKSTAR</span>
+                        <span style="color:#bd00ff; -webkit-text-stroke:0;">BY VITTORIA PRINT</span>
+                    </h2>
+                    <div id="looney-grid" class="gallery-grid">
+                        <!-- JS populated -->
+                    </div>
+                </section>
+
+                <!-- URBAN VIBES PANEL -->
+                <section id="urban-vibes" class="content-panel">
+                    <h2 class="section-title">
+                        <span style="color:#00f3ff; -webkit-text-stroke:0;">URBAN</span>
+                        <span style="color:#bd00ff; -webkit-text-stroke:0;">VIBES</span>
+                    </h2>
+                    <div id="urban-grid" class="gallery-grid">
+                        <!-- JS populated -->
+                    </div>
+                </section>
+
+                <!-- AMIGURUMI LANDING -->
+                <section id="amigurumi-landing" class="content-panel" style="text-align:center; padding-top:4rem;">
+                    <h2 class="section-title">
+                        <span class="ami-blue">AMIGURUMI</span><span class="ami-yellow" style="font-size: 0.8em; display:block;">COLLECTION</span>
+                    </h2>
+                    <div class="landing-grid"
+                        style="display:flex; justify-content:center; gap:2rem; flex-wrap:wrap; margin-top:3rem;">
+                        <div class="landing-card" onclick="navigateToSection('amigurumi-harry-potter')">
+                            <h3>HARRY POTTER</h3>
+                            <p data-i18n="explore_col">Explorar Colección</p>
+                        </div>
+                        <div class="landing-card" onclick="navigateToSection('amigurumi-dragon-ball')">
+                            <h3>DRAGON BALL</h3>
+                            <p data-i18n="explore_col">Explorar Colección</p>
+                        </div>
+                        <div class="landing-card" onclick="navigateToSection('amigurumi-pokemon')">
+                            <h3>POKEMON</h3>
+                            <p data-i18n="explore_col">Explorar Colección</p>
+                        </div>
+                        <div class="landing-card" onclick="navigateToSection('amigurumi-mario-world')">
+                            <h3>MARIO WORLD</h3>
+                            <p data-i18n="explore_col">Explorar Colección</p>
+                        </div>
+                        <div class="landing-card" onclick="navigateToSection('amigurumi-one-piece')">
+                            <h3>ONE PIECE</h3>
+                            <p data-i18n="explore_col">Explorar Colección</p>
+                        </div>
+                        <div class="landing-card" onclick="navigateToSection('amigurumi-naruto')">
+                            <h3>NARUTO</h3>
+                            <p data-i18n="explore_col">Explorar Colección</p>
+                        </div>
+                        <div class="landing-card" onclick="navigateToSection('amigurumi-kimetsu-no-yaiba')">
+                            <h3>KIMETSU NO YAIBA</h3>
+                            <p data-i18n="explore_col">Explorar Colección</p>
+                        </div>
+                        <div class="landing-card" onclick="navigateToSection('amigurumi-shingeki-no-kyojin')">
+                            <h3>SHINGEKI NO KYOJIN</h3>
+                            <p data-i18n="explore_col">Explorar Colección</p>
+                        </div>
+                        <div class="landing-card" onclick="navigateToSection('amigurumi-jujutsu-kaisen')">
+                            <h3>JUJUTSU KAISEN</h3>
+                            <p data-i18n="explore_col">Explorar Colección</p>
+                        </div>
+                        <div class="landing-card" onclick="navigateToSection('amigurumi-huntr-x')">
+                            <h3>HUNTR/X</h3>
+                            <p data-i18n="explore_col">Explorar Colección</p>
+                        </div>
+                        <div class="landing-card" onclick="navigateToSection('amigurumi-marvel-dc')">
+                            <h3>MARVEL/DC</h3>
+                            <p data-i18n="explore_col">Explorar Colección</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- AMIGURUMI SUB-PANELS -->
+                <section id="amigurumi-harry-potter" class="content-panel">
+                    <h2 class="section-title"><span class="ami-blue">AMIGURUMI</span> <span class="ami-yellow">- HARRY POTTER</span></h2>
+                    <div id="amigurumi-harry-potter-grid" class="gallery-grid"></div>
+                </section>
+                <section id="amigurumi-dragon-ball" class="content-panel">
+                    <h2 class="section-title"><span class="ami-blue">AMIGURUMI</span> <span class="ami-yellow">- DRAGON BALL</span></h2>
+                    <div id="amigurumi-dragon-ball-grid" class="gallery-grid"></div>
+                </section>
+                <section id="amigurumi-pokemon" class="content-panel">
+                    <h2 class="section-title"><span class="ami-blue">AMIGURUMI</span> <span class="ami-yellow">- POKEMON</span></h2>
+                    <div id="amigurumi-pokemon-grid" class="gallery-grid"></div>
+                </section>
+                <section id="amigurumi-mario-world" class="content-panel">
+                    <h2 class="section-title"><span class="ami-blue">AMIGURUMI</span> <span class="ami-yellow">- MARIO WORLD</span></h2>
+                    <div id="amigurumi-mario-world-grid" class="gallery-grid"></div>
+                </section>
+                <section id="amigurumi-one-piece" class="content-panel">
+                    <h2 class="section-title"><span class="ami-blue">AMIGURUMI</span> <span class="ami-yellow">- ONE PIECE</span></h2>
+                    <div id="amigurumi-one-piece-grid" class="gallery-grid"></div>
+                </section>
+                <section id="amigurumi-naruto" class="content-panel">
+                    <h2 class="section-title"><span class="ami-blue">AMIGURUMI</span> <span class="ami-yellow">- NARUTO</span></h2>
+                    <div id="amigurumi-naruto-grid" class="gallery-grid"></div>
+                </section>
+                <section id="amigurumi-kimetsu-no-yaiba" class="content-panel">
+                    <h2 class="section-title"><span class="ami-blue">AMIGURUMI</span> <span class="ami-yellow">- KIMETSU NO YAIBA</span></h2>
+                    <div id="amigurumi-kimetsu-no-yaiba-grid" class="gallery-grid"></div>
+                </section>
+                <section id="amigurumi-shingeki-no-kyojin" class="content-panel">
+                    <h2 class="section-title"><span class="ami-blue">AMIGURUMI</span> <span class="ami-yellow">- SHINGEKI NO KYOJIN</span></h2>
+                    <div id="amigurumi-shingeki-no-kyojin-grid" class="gallery-grid"></div>
+                </section>
+                <section id="amigurumi-jujutsu-kaisen" class="content-panel">
+                    <h2 class="section-title"><span class="ami-blue">AMIGURUMI</span> <span class="ami-yellow">- JUJUTSU KAISEN</span></h2>
+                    <div id="amigurumi-jujutsu-kaisen-grid" class="gallery-grid"></div>
+                </section>
+                <section id="amigurumi-huntr-x" class="content-panel">
+                    <h2 class="section-title"><span class="ami-blue">AMIGURUMI</span> <span class="ami-yellow">- HUNTR/X</span></h2>
+                    <div id="amigurumi-huntr-x-grid" class="gallery-grid"></div>
+                </section>
+                <section id="amigurumi-marvel-dc" class="content-panel">
+                    <h2 class="section-title"><span class="ami-blue">AMIGURUMI</span> <span class="ami-yellow">- MARVEL/DC</span></h2>
+                    <div id="amigurumi-marvel-dc-grid" class="gallery-grid"></div>
+                </section>
+
+            </div>
+
+            <section id="social" class="social-section">
+                <h2 class="section-title">SÍGUEME</h2>
+                <div class="social-links">
+                    <a href="https://www.tiktok.com/@pyros3d" target="_blank" class="social-card tiktok">
+                        <span>TikTok</span>
+                        <div class="icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/pyros3d/" target="_blank" class="social-card instagram">
+                        <span>Instagram</span>
+                        <div class="icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,5A1.25,1.25 0 0,1 19.25,6.25A1.25,1.25 0 0,1 18,7.5A1.25,1.25 0 0,1 16.75,6.25A1.25,1.25 0 0,1 18,5Z" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <section id="contact" class="contact-section">
+                <h2 data-i18n="contact_title">¿TIENES UNA IDEA?</h2>
+                <form id="contact-form" action="https://formsubmit.co/Pyrostrologyc@gmail.com" method="POST">
+                    <!-- Config -->
+                    <input type="hidden" name="_subject" value="Nuevo Proyecto - Web Portfolio">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://pyros3d.com/"> <!-- Optional redirect -->
+                    <input type="hidden" name="_template" value="table">
+
+                    <input type="text" name="name" placeholder="NOMBRE" required data-i18n-placeholder="form_name">
+                    <input type="email" name="email" placeholder="EMAIL" required data-i18n-placeholder="form_email">
+                    <textarea name="message" placeholder="CUÉNTAME TU PROYECTO" required data-i18n-placeholder="form_msg"></textarea>
+                    <button type="submit" class="btn-neon" data-i18n="form_send">ENVIAR</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" style="display:none;">
+        <video class="lightbox-content" id="lightbox-video" style="display:none;"></video>
+
+        <!-- INSTAGRAM ACTION BUTTON -->
+        <a id="lightbox-insta" href="#" target="_blank" class="lightbox-action" style="display:none;">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,5A1.25,1.25 0 0,1 19.25,6.25A1.25,1.25 0 0,1 18,7.5A1.25,1.25 0 0,1 16.75,6.25A1.25,1.25 0 0,1 18,5Z" />
+            </svg>
+            <span data-i18n="watch_reel">Ver Reel</span>
+        </a>
+
+        <div id="lightbox-caption"></div>
+
+        <!-- Navigation Arrows -->
+        <a class="lightbox-prev" onclick="navigateLightbox(-1)">&#10094;</a>
+        <a class="lightbox-next" onclick="navigateLightbox(1)">&#10095;</a>
+    </div>
+
+    <!-- Import Dynamic Data -->
+    <script src="data.js?v=kurama_fix_1"></script>
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
