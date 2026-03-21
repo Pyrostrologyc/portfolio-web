@@ -668,6 +668,7 @@ function initDataAndSearch() {
     // Looney Grid (Legacy Static)
     const looneyGrid = document.getElementById('looney-grid');
     if (looneyGrid && typeof looneyData !== 'undefined') {
+        looneyGrid.innerHTML = ''; // Prevent duplication on language change
         looneyData.forEach((lt, index) => {
             const item = document.createElement('div');
             item.className = 'gallery-item looney-card';
