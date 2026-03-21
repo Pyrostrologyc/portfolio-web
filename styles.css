@@ -790,14 +790,45 @@ textarea {
         position: relative;
         border-right: none;
         border-bottom: 1px solid var(--glass-border);
+        padding: 1rem;
+    }
+
+    .sidebar-logo {
+        max-width: 120px; /* Logo más pequeño en móvil */
     }
 
     .main-content {
         margin-left: 0;
+        padding: 2rem 5%; /* Menos padding superior */
     }
 
     .app-container {
         flex-direction: column;
+    }
+
+    /* Solución de calidad/encuadre de Imágenes en Móvil */
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Permitir 2 columnas en móvil */
+        gap: 1rem;
+    }
+
+    .gallery-item {
+        height: auto;
+        aspect-ratio: 3 / 4; /* Proporción vertical perfecta */
+    }
+
+    .gallery-item img, 
+    .gallery-item video {
+        object-fit: contain; /* Proteger el encuadre (no hacer zoom brutal) */
+        background-color: #0a0a0a; /* Fondo oscuro por si sobra espacio */
+    }
+
+    /* Títulos Grandes */
+    .glitch-text {
+        font-size: clamp(2.5rem, 8vw, 3.5rem);
+    }
+    .section-title {
+        font-size: 1.8rem;
     }
 }
 

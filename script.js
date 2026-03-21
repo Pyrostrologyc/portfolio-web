@@ -775,7 +775,10 @@ function setupVideoControls() {
 }
 
 setupVideoControls();
-sidebarAccordion.classList.add('active');
+// Only auto-open the accordion on PC. On mobile, keep it closed to save space.
+if (window.innerWidth >= 992) {
+    sidebarAccordion.classList.add('active');
+}
 setTimeout(observeItems, 500);
 
 // --- SMOOTH TRANSITION LOGIC ---
