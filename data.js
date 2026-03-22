@@ -4297,6 +4297,15 @@ const amigurumiHarryPotterData = [
       "assets/Amigurumi/Harry Potter/Severus Snape/SEVERUS SNAPE.jpg"
     ],
     "reel": "#"
+  },
+  {
+    "id": null,
+    "name": "Sirius Black",
+    "folder": "Sirius Black",
+    "images": [
+      "assets/Amigurumi/Harry Potter/Sirius Black/Sirius_Black.jpg"
+    ],
+    "reel": "#"
   }
 ];
 
