@@ -842,3 +842,58 @@ document.addEventListener('keydown', (e) => {
         e.preventDefault();
     }
 });
+
+// --- AJAX Form Submission ---
+const contactForm = document.getElementById('contact-form');
+if (contactForm) {
+    contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const btn = contactForm.querySelector('button[type="submit"]');
+        const formMsg = document.getElementById('form-message');
+        
+        // Save original button text and show loading
+        const originalText = btn.innerHTML;
+        btn.innerHTML = 'ENVIANDO...';
+        btn.disabled = true;
+        
+        const formData = new FormData(contactForm);
+
+        fetch(contactForm.action, {
+            method: contactForm.method,
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        })
+        .then(response => {
+            if (response.ok) {
+                // Success
+                contactForm.reset();
+                formMsg.textContent = '¡Correo enviado correctamente!';
+                formMsg.style.color = '#39ff14'; // Neon Green
+                formMsg.style.display = 'block';
+                
+                // Hide after 3 seconds
+                setTimeout(() => {
+                    formMsg.style.display = 'none';
+                }, 3000);
+            } else {
+                // Error
+                formMsg.textContent = 'Hubo un error al enviar. Inténtalo de nuevo.';
+                formMsg.style.color = '#ff003c'; // Neon Red
+                formMsg.style.display = 'block';
+            }
+        })
+        .catch(error => {
+            formMsg.textContent = 'Hubo un problema de red. Inténtalo más tarde.';
+            formMsg.style.color = '#ff003c';
+            formMsg.style.display = 'block';
+        })
+        .finally(() => {
+            // Restore button state
+            btn.innerHTML = originalText;
+            btn.disabled = false;
+        });
+    });
+}
