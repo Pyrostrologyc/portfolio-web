@@ -2964,6 +2964,22 @@ const cplData = [
     ]
   },
   {
+    "id": "197",
+    "name": "Umbreon",
+    "folder": "197_Umbreon",
+    "images": [
+      "assets/pokemon/CPL/197_Umbreon/197_Principal_Umbreon.png",
+      "assets/pokemon/CPL/197_Umbreon/197_Umbreon.png",
+      "assets/pokemon/CPL/197_Umbreon/197_Umbreon2.png",
+      "assets/pokemon/CPL/197_Umbreon/197_Umbreon4.png",
+      "assets/pokemon/CPL/197_Umbreon/197_UmbreonPallete.png"
+    ],
+    "generation": 2,
+    "types": [
+      "Siniestro"
+    ]
+  },
+  {
     "id": "212",
     "name": "Mega Scizor",
     "folder": "212_Mega_Scizor",
