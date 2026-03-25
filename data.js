@@ -1633,6 +1633,20 @@ const n3dData = [
     ]
   },
   {
+    "id": "142",
+    "name": "Aerodactyl",
+    "folder": "142_Aerodactyl",
+    "images": [
+      "assets/pokemon/N3D/142_Aerodactyl/142_Aerodactyl.png",
+      "assets/pokemon/N3D/142_Aerodactyl/142_Aerodactyl_Pallete.png"
+    ],
+    "generation": 1,
+    "types": [
+      "Roca",
+      "Volador"
+    ]
+  },
+  {
     "id": "143",
     "name": "Snorlax",
     "folder": "143_Snorlax",
