@@ -3521,8 +3521,8 @@ const cplData = [
     "name": "Zygarde 50%",
     "folder": "718_Zygarde_50",
     "images": [
+      "assets/pokemon/CPL/718_Zygarde_50/718_Principal_Zygarde_Front.png",
       "assets/pokemon/CPL/718_Zygarde_50/718_Zygarde_Back.png",
-      "assets/pokemon/CPL/718_Zygarde_50/718_Zygarde_Front.png",
       "assets/pokemon/CPL/718_Zygarde_50/718_Zygarde_Front_Colors.png",
       "assets/pokemon/CPL/718_Zygarde_50/718_Zygarde_Right.png",
       "assets/pokemon/CPL/718_Zygarde_50/718_Zygarde_Thumbnail.png"

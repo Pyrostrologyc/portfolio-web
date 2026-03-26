@@ -140,11 +140,11 @@ window.addEventListener('resize', init);
 init();
 animate();
 
-// --- Force Scroll to Top on Load (F5) ---
+// --- Scroll Restoration (F5) ---
 if (history.scrollRestoration) {
     history.scrollRestoration = 'manual';
 }
-window.scrollTo(0, 0);
+// window.scrollTo(0, 0); // Removed to allow hash-based scroll
 
 // --- Click Particle Effect ---
 class Particle {
@@ -221,31 +221,11 @@ const contentPanels = document.querySelectorAll('.content-panel');
 
 sidebarLinks.forEach(link => {
     link.addEventListener('click', (e) => {
-        e.preventDefault();
+        // e.preventDefault(); // Allow default hash update or handle manually
         const targetId = link.getAttribute('data-target');
-
-        // Remove active class from all links
-        sidebarLinks.forEach(l => l.classList.remove('active'));
-        document.querySelectorAll('.group-toggle').forEach(l => l.classList.remove('active'));
-
-        // Add active class to clicked link
-        link.classList.add('active');
-
-        // If it's a sub-link, highlight parent too? Maybe not necessary.
-
-        contentPanels.forEach(panel => {
-            panel.classList.remove('active');
-            if (panel.id === targetId) {
-                panel.classList.add('active');
-                setTimeout(observeItems, 100);
-            }
-        });
-
-        if (window.innerWidth < 992) {
-            document.querySelector('.main-content').scrollIntoView({ behavior: 'smooth' });
-        } else {
-            // Desktop: Scroll to top when clicking a link
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+        if (targetId) {
+            e.preventDefault();
+            navigateToSection(targetId);
         }
     });
 });
@@ -794,20 +774,35 @@ document.querySelectorAll('.sidebar-link, .sidebar-link-main').forEach(link => {
         }
     });
 });
-
 // --- Programmatic Navigation ---
 window.navigateToSection = function (targetId) {
     const contentPanels = document.querySelectorAll('.content-panel');
+    const sidebarLinks = document.querySelectorAll('.sidebar-link:not(.group-toggle)');
+
+    // Update UI Classes
+    sidebarLinks.forEach(l => {
+        l.classList.remove('active');
+        if (l.getAttribute('data-target') === targetId) {
+            l.classList.add('active');
+            // If it's inside an accordion, ensure accordion is open
+            const accordion = l.closest('.sidebar-accordion');
+            if (accordion) accordion.classList.add('active');
+        }
+    });
+
     contentPanels.forEach(panel => {
         panel.classList.remove('active');
         if (panel.id === targetId) {
             panel.classList.add('active');
-            // Trigger lazy load if function exists
-            if (typeof observeItems === 'function') {
-                setTimeout(observeItems, 100);
-            }
+            // Trigger reveals for lazy loaded items in this panel
+            setTimeout(observeItems, 100);
         }
     });
+
+    // Update URL Hash
+    if (window.location.hash !== '#' + targetId) {
+        history.pushState(null, null, '#' + targetId);
+    }
 
     // Scroll handling
     if (window.innerWidth < 992) {
@@ -817,6 +812,34 @@ window.navigateToSection = function (targetId) {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 };
+
+// --- Initialization & Hash Handling ---
+function handleInitialNavigation() {
+    const hash = window.location.hash.substring(1);
+    if (hash) {
+        const targetPanel = document.getElementById(hash);
+        if (targetPanel && targetPanel.classList.contains('content-panel')) {
+            window.navigateToSection(hash);
+            return;
+        }
+    }
+}
+
+// Window popstate to handle browser back/forward
+window.addEventListener('popstate', () => {
+    const hash = window.location.hash.substring(1);
+    if (hash) window.navigateToSection(hash);
+});
+
+// Initialize after data is loaded and DOM is ready
+document.addEventListener('DOMContentLoaded', () => {
+    handleInitialNavigation();
+});
+
+// For immediate execution if DOM already loaded
+if (document.readyState === 'complete' || document.readyState === 'interactive') {
+    handleInitialNavigation();
+}
 
 // --- SECURITY: PREVENT IMAGE THEFT ---
 // Block right-click context menu
