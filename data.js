@@ -591,7 +591,7 @@ const n3dData = [
     ],
     "generation": 1,
     "types": [
-      "Fuego"
+      "Hielo"
     ]
   },
   {
@@ -615,7 +615,8 @@ const n3dData = [
     ],
     "generation": 1,
     "types": [
-      "Fuego"
+      "Hielo",
+      "Hada"
     ]
   },
   {
@@ -1083,7 +1084,7 @@ const n3dData = [
     ],
     "generation": 1,
     "types": [
-      "Fuego"
+      "Ps\u00edquico"
     ]
   },
   {
@@ -2661,7 +2662,8 @@ const cplData = [
     ],
     "generation": 1,
     "types": [
-      "El\u00e9ctrico"
+      "El\u00e9ctrico",
+      "Ps\u00edquico"
     ]
   },
   {
@@ -2970,7 +2972,7 @@ const cplData = [
     ],
     "generation": 2,
     "types": [
-      "Agua",
+      "Veneno",
       "Tierra"
     ]
   },
