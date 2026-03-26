@@ -14,52 +14,6 @@ const n3dData = [
     ]
   },
   {
-    "id": "001",
-    "name": "Bulbasaur Halloween",
-    "folder": "001_Bulbasaur_Halloween",
-    "images": [
-      "assets/pokemon/N3D/001_Bulbasaur_Halloween/001_Bulbasaur_Halloween.jpg",
-      "assets/pokemon/N3D/001_Bulbasaur_Halloween/001_Bulbasaur_Halloween1.jpg",
-      "assets/pokemon/N3D/001_Bulbasaur_Halloween/001_Bulbasaur_Halloween_2.jpg"
-    ],
-    "generation": 1,
-    "types": [
-      "Planta",
-      "Veneno"
-    ]
-  },
-  {
-    "id": "001",
-    "name": "Bulbasaur Valentines Day",
-    "folder": "001_Bulbasaur_Valentines_Day",
-    "images": [
-      "assets/pokemon/N3D/001_Bulbasaur_Valentines_Day/001_Bulbasaur_Valentines_Day_1.jpg",
-      "assets/pokemon/N3D/001_Bulbasaur_Valentines_Day/001_Bulbasaur_Valentines_Day_2.jpg"
-    ],
-    "generation": 1,
-    "types": [
-      "Planta",
-      "Veneno"
-    ]
-  },
-  {
-    "id": "001",
-    "name": "Christmas Bulbasaur",
-    "folder": "001_Christmas_Bulbasaur",
-    "images": [
-      "assets/pokemon/N3D/001_Christmas_Bulbasaur/001_Christmas_Bulbasaur_.jpg",
-      "assets/pokemon/N3D/001_Christmas_Bulbasaur/001_Christmas_Bulbasaur_1.jpg",
-      "assets/pokemon/N3D/001_Christmas_Bulbasaur/001_Christmas_Bulbasaur_2.jpg",
-      "assets/pokemon/N3D/001_Christmas_Bulbasaur/001_Christmas_Bulbasaur_4.jpg",
-      "assets/pokemon/N3D/001_Christmas_Bulbasaur/001_Christmas_Bulbasaur_5.jpg"
-    ],
-    "generation": 1,
-    "types": [
-      "Planta",
-      "Veneno"
-    ]
-  },
-  {
     "id": "002",
     "name": "Ivysaur",
     "folder": "002_Ivysaur",
@@ -2471,23 +2425,6 @@ const n3dData = [
   },
   {
     "id": "658",
-    "name": "Ash Greninja",
-    "folder": "658_Ash_Greninja",
-    "images": [
-      "assets/pokemon/N3D/658_Ash_Greninja/658_Ash_Greninja_2.jpg",
-      "assets/pokemon/N3D/658_Ash_Greninja/658_Ash_Greninja.jpg",
-      "assets/pokemon/N3D/658_Ash_Greninja/658_Ash_Greninja_3.jpg",
-      "assets/pokemon/N3D/658_Ash_Greninja/658_Ash_Greninja_4.jpg",
-      "assets/pokemon/N3D/658_Ash_Greninja/658_Ash_Greninja_5.jpg"
-    ],
-    "generation": 6,
-    "types": [
-      "Agua",
-      "Siniestro"
-    ]
-  },
-  {
-    "id": "658",
     "name": "Greninja",
     "folder": "658_Greninja",
     "images": [
@@ -2587,6 +2524,65 @@ const n3dData = [
       "Hada",
       "Acero"
     ]
+  },
+  {
+    "id": "9996",
+    "name": "Ash Greninja",
+    "folder": "658_Ash_Greninja",
+    "images": [
+      "assets/pokemon/N3D/658_Ash_Greninja/658_Ash_Greninja_2.jpg",
+      "assets/pokemon/N3D/658_Ash_Greninja/658_Ash_Greninja.jpg",
+      "assets/pokemon/N3D/658_Ash_Greninja/658_Ash_Greninja_3.jpg",
+      "assets/pokemon/N3D/658_Ash_Greninja/658_Ash_Greninja_4.jpg",
+      "assets/pokemon/N3D/658_Ash_Greninja/658_Ash_Greninja_5.jpg"
+    ],
+    "generation": 9,
+    "types": [
+      "Especial"
+    ]
+  },
+  {
+    "id": "9997",
+    "name": "Christmas Bulbasaur",
+    "folder": "001_Christmas_Bulbasaur",
+    "images": [
+      "assets/pokemon/N3D/001_Christmas_Bulbasaur/001_Christmas_Bulbasaur_.jpg",
+      "assets/pokemon/N3D/001_Christmas_Bulbasaur/001_Christmas_Bulbasaur_1.jpg",
+      "assets/pokemon/N3D/001_Christmas_Bulbasaur/001_Christmas_Bulbasaur_2.jpg",
+      "assets/pokemon/N3D/001_Christmas_Bulbasaur/001_Christmas_Bulbasaur_4.jpg",
+      "assets/pokemon/N3D/001_Christmas_Bulbasaur/001_Christmas_Bulbasaur_5.jpg"
+    ],
+    "generation": 9,
+    "types": [
+      "Especial"
+    ]
+  },
+  {
+    "id": "9998",
+    "name": "Bulbasaur Valentines Day",
+    "folder": "001_Bulbasaur_Valentines_Day",
+    "images": [
+      "assets/pokemon/N3D/001_Bulbasaur_Valentines_Day/001_Bulbasaur_Valentines_Day_1.jpg",
+      "assets/pokemon/N3D/001_Bulbasaur_Valentines_Day/001_Bulbasaur_Valentines_Day_2.jpg"
+    ],
+    "generation": 9,
+    "types": [
+      "Especial"
+    ]
+  },
+  {
+    "id": "9999",
+    "name": "Bulbasaur Halloween",
+    "folder": "001_Bulbasaur_Halloween",
+    "images": [
+      "assets/pokemon/N3D/001_Bulbasaur_Halloween/001_Bulbasaur_Halloween.jpg",
+      "assets/pokemon/N3D/001_Bulbasaur_Halloween/001_Bulbasaur_Halloween1.jpg",
+      "assets/pokemon/N3D/001_Bulbasaur_Halloween/001_Bulbasaur_Halloween_2.jpg"
+    ],
+    "generation": 9,
+    "types": [
+      "Especial"
+    ]
   }
 ];
 
@@ -2633,21 +2629,6 @@ const cplData = [
     "generation": 1,
     "types": [
       "Agua"
-    ]
-  },
-  {
-    "id": "025",
-    "name": "Santa Pikachu",
-    "folder": "025_Santa_Pikachu",
-    "images": [
-      "assets/pokemon/CPL/025_Santa_Pikachu/025_Santa_Pikachu_1.jpg",
-      "assets/pokemon/CPL/025_Santa_Pikachu/025_Santa_Pikachu_2.jpg",
-      "assets/pokemon/CPL/025_Santa_Pikachu/025_Santa_Pikachu_3.jpg",
-      "assets/pokemon/CPL/025_Santa_Pikachu/025_Santa_Pikachu_4.jpg"
-    ],
-    "generation": 1,
-    "types": [
-      "El\u00e9ctrico"
     ]
   },
   {
@@ -2748,20 +2729,6 @@ const cplData = [
       "assets/pokemon/CPL/132_Ditto/Ditt3o2.png",
       "assets/pokemon/CPL/132_Ditto/Ditto2.png",
       "assets/pokemon/CPL/132_Ditto/Ditto32.png"
-    ],
-    "generation": 1,
-    "types": [
-      "Normal"
-    ]
-  },
-  {
-    "id": "143",
-    "name": "Santa Snorlax",
-    "folder": "143_Santa_Snorlax",
-    "images": [
-      "assets/pokemon/CPL/143_Santa_Snorlax/143_Santa_Snorlax_1.jpg",
-      "assets/pokemon/CPL/143_Santa_Snorlax/143_Santa_Snorlax_2.jpg",
-      "assets/pokemon/CPL/143_Santa_Snorlax/143_Santa_Snorlax_3.jpg"
     ],
     "generation": 1,
     "types": [
@@ -2917,19 +2884,6 @@ const cplData = [
     "types": [
       "Veneno",
       "Volador"
-    ]
-  },
-  {
-    "id": "175",
-    "name": "Togepi Halloween",
-    "folder": "175_Togepi_Halloween",
-    "images": [
-      "assets/pokemon/CPL/175_Togepi_Halloween/175_Togepi_Halloween_2.jpg",
-      "assets/pokemon/CPL/175_Togepi_Halloween/175_Togepi_Halloween.jpg"
-    ],
-    "generation": 2,
-    "types": [
-      "Hada"
     ]
   },
   {
@@ -3482,23 +3436,6 @@ const cplData = [
     ]
   },
   {
-    "id": "658",
-    "name": "Ash Greninja",
-    "folder": "658_Ash_Greninja",
-    "images": [
-      "assets/pokemon/CPL/658_Ash_Greninja/658_Ash_Greninja_5.jpg",
-      "assets/pokemon/CPL/658_Ash_Greninja/658_Ash_Greninja_1.jpg",
-      "assets/pokemon/CPL/658_Ash_Greninja/658_Ash_Greninja_2.jpg",
-      "assets/pokemon/CPL/658_Ash_Greninja/658_Ash_Greninja_3.jpg",
-      "assets/pokemon/CPL/658_Ash_Greninja/658_Ash_Greninja_4.jpg"
-    ],
-    "generation": 6,
-    "types": [
-      "Agua",
-      "Siniestro"
-    ]
-  },
-  {
     "id": "700",
     "name": "Sylveon",
     "folder": "700_Sylveon",
@@ -3816,6 +3753,64 @@ const cplData = [
     "generation": 9,
     "types": [
       "Agua"
+    ]
+  },
+  {
+    "id": "9973",
+    "name": "Togepi Halloween",
+    "folder": "175_Togepi_Halloween",
+    "images": [
+      "assets/pokemon/CPL/175_Togepi_Halloween/175_Togepi_Halloween_2.jpg",
+      "assets/pokemon/CPL/175_Togepi_Halloween/175_Togepi_Halloween.jpg"
+    ],
+    "generation": 9,
+    "types": [
+      "Especial"
+    ]
+  },
+  {
+    "id": "9974",
+    "name": "Santa Snorlax",
+    "folder": "143_Santa_Snorlax",
+    "images": [
+      "assets/pokemon/CPL/143_Santa_Snorlax/143_Santa_Snorlax_1.jpg",
+      "assets/pokemon/CPL/143_Santa_Snorlax/143_Santa_Snorlax_2.jpg",
+      "assets/pokemon/CPL/143_Santa_Snorlax/143_Santa_Snorlax_3.jpg"
+    ],
+    "generation": 9,
+    "types": [
+      "Especial"
+    ]
+  },
+  {
+    "id": "9975",
+    "name": "Santa Pikachu",
+    "folder": "025_Santa_Pikachu",
+    "images": [
+      "assets/pokemon/CPL/025_Santa_Pikachu/025_Santa_Pikachu_1.jpg",
+      "assets/pokemon/CPL/025_Santa_Pikachu/025_Santa_Pikachu_2.jpg",
+      "assets/pokemon/CPL/025_Santa_Pikachu/025_Santa_Pikachu_3.jpg",
+      "assets/pokemon/CPL/025_Santa_Pikachu/025_Santa_Pikachu_4.jpg"
+    ],
+    "generation": 9,
+    "types": [
+      "Especial"
+    ]
+  },
+  {
+    "id": "9976",
+    "name": "Ash Greninja",
+    "folder": "658_Ash_Greninja",
+    "images": [
+      "assets/pokemon/CPL/658_Ash_Greninja/658_Ash_Greninja_5.jpg",
+      "assets/pokemon/CPL/658_Ash_Greninja/658_Ash_Greninja_1.jpg",
+      "assets/pokemon/CPL/658_Ash_Greninja/658_Ash_Greninja_2.jpg",
+      "assets/pokemon/CPL/658_Ash_Greninja/658_Ash_Greninja_3.jpg",
+      "assets/pokemon/CPL/658_Ash_Greninja/658_Ash_Greninja_4.jpg"
+    ],
+    "generation": 9,
+    "types": [
+      "Especial"
     ]
   },
   {
