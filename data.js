@@ -1633,6 +1633,19 @@ const n3dData = [
     ]
   },
   {
+    "id": "137",
+    "name": "Porygon",
+    "folder": "137_Porygon",
+    "images": [
+      "assets/pokemon/N3D/137_Porygon/137_Porygon.png",
+      "assets/pokemon/N3D/137_Porygon/137_Porygon_PalleteColours.png"
+    ],
+    "generation": 1,
+    "types": [
+      "Normal"
+    ]
+  },
+  {
     "id": "142",
     "name": "Aerodactyl",
     "folder": "142_Aerodactyl",
