@@ -498,7 +498,7 @@ function addCardInteractions(card, pkName, reelUrl = null, list = [], index = -1
             overlay.addEventListener('click', (e) => {
                 e.stopPropagation();
                 const title = card.querySelector('h3') ? card.querySelector('h3').textContent : 'Video';
-                openLightbox(video.src, title, true, null, list, index);
+                openLightbox(video.src, title, true, reelUrl, list, index);
             });
         }
         // Also allow clicking the video itself if controls aren't blocking
@@ -506,7 +506,7 @@ function addCardInteractions(card, pkName, reelUrl = null, list = [], index = -1
             e.stopPropagation();
             e.preventDefault(); // Prevent default play/pause
             const title = card.querySelector('h3') ? card.querySelector('h3').textContent : 'Video';
-            openLightbox(video.src, title, true, null, list, index);
+            openLightbox(video.src, title, true, reelUrl, list, index);
         });
     }
 
