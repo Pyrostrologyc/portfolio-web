@@ -25,7 +25,11 @@ const translations = {
         "form_email": "EMAIL",
         "form_msg": "CUÉNTAME TU PROYECTO",
         "form_send": "ENVIAR",
-        "watch_reel": "Ver Reel"
+        "watch_reel": "Ver Reel",
+        "legal_privacy_accept": "He leído y acepto la Política de Privacidad.",
+        "legal_fanart_disclaimer": "Los personajes de Pokémon y Star Wars son propiedad de Nintendo/The Pokémon Company y Disney/Lucasfilm respectivamente. Este sitio es un portfolio artístico sin fines comerciales directos.",
+        "legal_copyright": "© 2026 PYROS 3D. Todos los derechos reservados."
+
     },
     en: {
         "menu_3d": "3D PRINTING",
@@ -53,7 +57,11 @@ const translations = {
         "form_email": "EMAIL",
         "form_msg": "TELL ME ABOUT YOUR PROJECT",
         "form_send": "SEND",
-        "watch_reel": "Watch Reel"
+        "watch_reel": "Watch Reel",
+        "legal_privacy_accept": "I have read and accept the Privacy Policy.",
+        "legal_fanart_disclaimer": "Pokémon and Star Wars characters are property of Nintendo/The Pokémon Company and Disney/Lucasfilm respectively. This site is an artistic portfolio with no direct commercial purposes.",
+        "legal_copyright": "© 2026 PYROS 3D. All rights reserved."
+
     },
     fr: {
         "menu_3d": "IMPRESSION 3D",
@@ -81,7 +89,11 @@ const translations = {
         "form_email": "E-MAIL",
         "form_msg": "PARLEZ-MOI DE VOTRE PROJET",
         "form_send": "ENVOYER",
-        "watch_reel": "Voir Reel"
+        "watch_reel": "Voir Reel",
+        "legal_privacy_accept": "J'ai lu et j'accepte la Politique de Confidentialité.",
+        "legal_fanart_disclaimer": "Les personnages de Pokémon et Star Wars sont la propriété de Nintendo/The Pokémon Company et Disney/Lucasfilm respectivement. Ce site est un portfolio artistique sans but commercial direct.",
+        "legal_copyright": "© 2026 PYROS 3D. Tous droits réservés."
+
     },
     it: {
         "menu_3d": "STAMPA 3D",
@@ -109,7 +121,11 @@ const translations = {
         "form_email": "EMAIL",
         "form_msg": "RACCONTAMI IL TUO PROGETTO",
         "form_send": "INVIA",
-        "watch_reel": "Guarda Reel"
+        "watch_reel": "Guarda Reel",
+        "legal_privacy_accept": "Ho letto e accetto l'Informativa sulla Privacy.",
+        "legal_fanart_disclaimer": "I personaggi di Pokémon e Star Wars sono di proprietà di Nintendo/The Pokémon Company e Disney/Lucasfilm rispettivamente. Questo sito è un portfolio artistico senza scopi commerciali diretti.",
+        "legal_copyright": "© 2026 PYROS 3D. Tutti i diritti riservati."
+
     },
     pt: {
         "menu_3d": "IMPRESSÃO 3D",
@@ -137,7 +153,11 @@ const translations = {
         "form_email": "EMAIL",
         "form_msg": "CONTE-ME SOBRE SEU PROJETO",
         "form_send": "ENVIAR",
-        "watch_reel": "Ver Reel"
+        "watch_reel": "Ver Reel",
+        "legal_privacy_accept": "Li e aceito a Política de Privacidade.",
+        "legal_fanart_disclaimer": "Os personagens de Pokémon e Star Wars são propriedade da Nintendo/The Pokémon Company e Disney/Lucasfilm, respectivamente. Este site é um portfólio artístico sem fins comerciais diretos.",
+        "legal_copyright": "© 2026 PYROS 3D. Todos los direitos reservados."
+
     },
     de: {
         "menu_3d": "3D-DRUCK",
@@ -165,7 +185,11 @@ const translations = {
         "form_email": "E-MAIL",
         "form_msg": "ERZÄHL MIR VON DEINEM PROJEKT",
         "form_send": "SENDEN",
-        "watch_reel": "Reel Ansehen"
+        "watch_reel": "Reel Ansehen",
+        "legal_privacy_accept": "Ich habe die Datenschutzerklärung gelesen und akzeptiere sie.",
+        "legal_fanart_disclaimer": "Pokémon- und Star Wars-Charaktere sind Eigentum von Nintendo/The Pokémon Company bzw. Disney/Lucasfilm. Diese Website ist ein künstlerisches Portfolio ohne direkte kommerzielle Zwecke.",
+        "legal_copyright": "© 2026 PYROS 3D. Alle Rechte vorbehalten."
+
     }
 };
 
