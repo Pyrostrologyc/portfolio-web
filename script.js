@@ -739,7 +739,6 @@ function setupVideoControls() {
         const vid = card.querySelector('video');
         if (vid) {
             // Mouseover Preview
-            vid.pause();
             card.addEventListener('mouseenter', () => {
                 vid.play().catch(e => console.log("Video play error:", e));
             });
