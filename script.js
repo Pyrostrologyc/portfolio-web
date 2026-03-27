@@ -729,7 +729,8 @@ function setupVideoControls() {
             videos.push({
                 src: vid.src,
                 name: card.querySelector('h3') ? card.querySelector('h3').textContent : 'Star Wars Video',
-                video: true
+                video: true,
+                reel: card.dataset.reel || null
             });
         }
     });
@@ -749,7 +750,7 @@ function setupVideoControls() {
 
             // Attach Lightbox & Tilt (using the shared function)
             const title = card.querySelector('h3') ? card.querySelector('h3').textContent : 'Video';
-            addCardInteractions(card, title, null, videos, index);
+            addCardInteractions(card, title, card.dataset.reel || null, videos, index);
         }
     });
 }
