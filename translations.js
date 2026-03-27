@@ -28,7 +28,11 @@ const translations = {
         "watch_reel": "Ver Reel",
         "legal_privacy_accept": "He leído y acepto la Política de Privacidad.",
         "legal_fanart_disclaimer": "Los personajes de Pokémon y Star Wars son propiedad de Nintendo/The Pokémon Company y Disney/Lucasfilm respectivamente. Este sitio es un portfolio artístico sin fines comerciales directos.",
-        "legal_copyright": "© 2026 PYROS 3D. Todos los derechos reservados."
+        "legal_copyright": "© 2026 PYROS 3D. Todos los derechos reservados.",
+        "cookie_text": "Utilizamos cookies para mejorar tu experiencia y analizar el tráfico. Al continuar navegando, aceptas nuestro uso de cookies.",
+        "cookie_accept": "Aceptar",
+        "cookie_reject": "Rechazar"
+
 
     },
     en: {
@@ -60,7 +64,11 @@ const translations = {
         "watch_reel": "Watch Reel",
         "legal_privacy_accept": "I have read and accept the Privacy Policy.",
         "legal_fanart_disclaimer": "Pokémon and Star Wars characters are property of Nintendo/The Pokémon Company and Disney/Lucasfilm respectively. This site is an artistic portfolio with no direct commercial purposes.",
-        "legal_copyright": "© 2026 PYROS 3D. All rights reserved."
+        "legal_copyright": "© 2026 PYROS 3D. All rights reserved.",
+        "cookie_text": "We use cookies to improve your experience and analyze traffic. By continuing to browse, you accept our use of cookies.",
+        "cookie_accept": "Accept",
+        "cookie_reject": "Reject"
+
 
     },
     fr: {
@@ -92,7 +100,11 @@ const translations = {
         "watch_reel": "Voir Reel",
         "legal_privacy_accept": "J'ai lu et j'accepte la Politique de Confidentialité.",
         "legal_fanart_disclaimer": "Les personnages de Pokémon et Star Wars sont la propriété de Nintendo/The Pokémon Company et Disney/Lucasfilm respectivement. Ce site est un portfolio artistique sans but commercial direct.",
-        "legal_copyright": "© 2026 PYROS 3D. Tous droits réservés."
+        "legal_copyright": "© 2026 PYROS 3D. Tous droits réservés.",
+        "cookie_text": "Nous utilizamos des cookies pour améliorer votre expérience et analyser le trafic. En continuant à naviguer, vous acceptez notre utilisation des cookies.",
+        "cookie_accept": "Accepter",
+        "cookie_reject": "Refuser"
+
 
     },
     it: {
@@ -124,7 +136,11 @@ const translations = {
         "watch_reel": "Guarda Reel",
         "legal_privacy_accept": "Ho letto e accetto l'Informativa sulla Privacy.",
         "legal_fanart_disclaimer": "I personaggi di Pokémon e Star Wars sono di proprietà di Nintendo/The Pokémon Company e Disney/Lucasfilm rispettivamente. Questo sito è un portfolio artistico senza scopi commerciali diretti.",
-        "legal_copyright": "© 2026 PYROS 3D. Tutti i diritti riservati."
+        "legal_copyright": "© 2026 PYROS 3D. Tutti i diritti riservati.",
+        "cookie_text": "Utilizziamo i cookie per migliorare la tua esperienza e analizzare il traffico. Continuando a navigare, accetti el nuestro uso dei cookie.",
+        "cookie_accept": "Accetta",
+        "cookie_reject": "Rifiuta"
+
 
     },
     pt: {
@@ -156,7 +172,11 @@ const translations = {
         "watch_reel": "Ver Reel",
         "legal_privacy_accept": "Li e aceito a Política de Privacidade.",
         "legal_fanart_disclaimer": "Os personagens de Pokémon e Star Wars são propriedade da Nintendo/The Pokémon Company e Disney/Lucasfilm, respectivamente. Este site é um portfólio artístico sem fins comerciais diretos.",
-        "legal_copyright": "© 2026 PYROS 3D. Todos los direitos reservados."
+        "legal_copyright": "© 2026 PYROS 3D. Todos los direitos reservados.",
+        "cookie_text": "Utilizamos cookies para melhorar sua experiência e analisar o tráfego. Ao continuar a navegar, você aceita o nosso uso de cookies.",
+        "cookie_accept": "Aceitar",
+        "cookie_reject": "Rejeitar"
+
 
     },
     de: {
@@ -188,7 +208,11 @@ const translations = {
         "watch_reel": "Reel Ansehen",
         "legal_privacy_accept": "Ich habe die Datenschutzerklärung gelesen und akzeptiere sie.",
         "legal_fanart_disclaimer": "Pokémon- und Star Wars-Charaktere sind Eigentum von Nintendo/The Pokémon Company bzw. Disney/Lucasfilm. Diese Website ist ein künstlerisches Portfolio ohne direkte kommerzielle Zwecke.",
-        "legal_copyright": "© 2026 PYROS 3D. Alle Rechte vorbehalten."
+        "legal_copyright": "© 2026 PYROS 3D. Alle Rechte vorbehalten.",
+        "cookie_text": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern und den Datenverkehr zu analysieren. Durch die weitere Nutzung der Website de akzeptieren Sie unsere Verwendung von Cookies.",
+        "cookie_accept": "Akzeptieren",
+        "cookie_reject": "Ablehnen"
+
 
     }
 };

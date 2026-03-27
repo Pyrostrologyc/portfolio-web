@@ -921,3 +921,42 @@ if (contactForm) {
         });
     });
 }
+
+// --- COOKIE CONSENT LOGIC ---
+function initCookieBanner() {
+    const banner = document.getElementById('cookie-banner');
+    const acceptBtn = document.getElementById('cookie-accept');
+    const rejectBtn = document.getElementById('cookie-reject');
+
+    if (!banner) return;
+
+    // Check if user already made a choice
+    const consent = localStorage.getItem('cookie_consent');
+    if (!consent) {
+        // Show banner after a short delay
+        setTimeout(() => {
+            banner.classList.add('active');
+        }, 2000);
+    }
+
+    if (acceptBtn) {
+        acceptBtn.addEventListener('click', () => {
+            localStorage.setItem('cookie_consent', 'accepted');
+            banner.classList.remove('active');
+            // GA is already loaded by default, but we could initialize it here if we wanted strictly opt-in
+        });
+    }
+
+    if (rejectBtn) {
+        rejectBtn.addEventListener('click', () => {
+            localStorage.setItem('cookie_consent', 'rejected');
+            banner.classList.remove('active');
+            // Optional: disable GA if rejected
+        });
+    }
+}
+
+// Initialize on load
+document.addEventListener('DOMContentLoaded', () => {
+    initCookieBanner();
+});
