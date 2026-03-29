@@ -3321,6 +3321,23 @@ const cplData = [
     ]
   },
   {
+    "id": "494",
+    "name": "Victini",
+    "folder": "494_Victini",
+    "images": [
+      "assets/pokemon/CPL/494_Victini/Principal_Victini.png",
+      "assets/pokemon/CPL/494_Victini/Victini 2.png",
+      "assets/pokemon/CPL/494_Victini/Victini 3.png",
+      "assets/pokemon/CPL/494_Victini/Victini.png",
+      "assets/pokemon/CPL/494_Victini/Victini_PalleteColours.png"
+    ],
+    "generation": 5,
+    "types": [
+      "Ps\u00edquico",
+      "Fuego"
+    ]
+  },
+  {
     "id": "495",
     "name": "Snivy",
     "folder": "495_Snivy",
