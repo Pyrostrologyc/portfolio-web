@@ -2201,6 +2201,19 @@ const n3dData = [
     ]
   },
   {
+    "id": "405",
+    "name": "Luxray",
+    "folder": "405_Luxray",
+    "images": [
+      "assets/pokemon/N3D/405_Luxray/Luxray.png",
+      "assets/pokemon/N3D/405_Luxray/luxray_palletecolours.png"
+    ],
+    "generation": 4,
+    "types": [
+      "El\u00e9ctrico"
+    ]
+  },
+  {
     "id": "445",
     "name": "Garchomp",
     "folder": "445_Garchomp",
