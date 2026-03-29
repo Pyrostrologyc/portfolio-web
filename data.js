@@ -2549,7 +2549,7 @@ const n3dData = [
       "assets/pokemon/N3D/658_Ash_Greninja/658_Ash_Greninja_4.jpg",
       "assets/pokemon/N3D/658_Ash_Greninja/658_Ash_Greninja_5.jpg"
     ],
-    "generation": 9,
+    "generation": 6,
     "types": [
       "Especial"
     ]
@@ -2565,7 +2565,7 @@ const n3dData = [
       "assets/pokemon/N3D/001_Christmas_Bulbasaur/001_Christmas_Bulbasaur_4.jpg",
       "assets/pokemon/N3D/001_Christmas_Bulbasaur/001_Christmas_Bulbasaur_5.jpg"
     ],
-    "generation": 9,
+    "generation": 1,
     "types": [
       "Especial"
     ]
@@ -2578,7 +2578,7 @@ const n3dData = [
       "assets/pokemon/N3D/001_Bulbasaur_Valentines_Day/001_Bulbasaur_Valentines_Day_1.jpg",
       "assets/pokemon/N3D/001_Bulbasaur_Valentines_Day/001_Bulbasaur_Valentines_Day_2.jpg"
     ],
-    "generation": 9,
+    "generation": 1,
     "types": [
       "Especial"
     ]
@@ -2592,7 +2592,7 @@ const n3dData = [
       "assets/pokemon/N3D/001_Bulbasaur_Halloween/001_Bulbasaur_Halloween1.jpg",
       "assets/pokemon/N3D/001_Bulbasaur_Halloween/001_Bulbasaur_Halloween_2.jpg"
     ],
-    "generation": 9,
+    "generation": 1,
     "types": [
       "Especial"
     ]
@@ -3821,7 +3821,7 @@ const cplData = [
       "assets/pokemon/CPL/658_Ash_Greninja/658_Ash_Greninja_3.jpg",
       "assets/pokemon/CPL/658_Ash_Greninja/658_Ash_Greninja_4.jpg"
     ],
-    "generation": 9,
+    "generation": 6,
     "types": [
       "Especial"
     ]
@@ -4142,7 +4142,7 @@ const cplData = [
       "assets/pokemon/CPL/9996_Zoro-Scyther/9996_Zoro-Scyther_4.jpg",
       "assets/pokemon/CPL/9996_Zoro-Scyther/9996_Zoro-Scyther_5.jpg"
     ],
-    "generation": 9,
+    "generation": 6,
     "types": [
       "Especial"
     ]
@@ -4155,7 +4155,7 @@ const cplData = [
       "assets/pokemon/CPL/9997_Pikaluffy/9997_Pikaluffy_1.jpg",
       "assets/pokemon/CPL/9997_Pikaluffy/9997_Pikaluffy_2.jpg"
     ],
-    "generation": 9,
+    "generation": 1,
     "types": [
       "Especial"
     ]
@@ -4171,7 +4171,7 @@ const cplData = [
       "assets/pokemon/CPL/9998_Tony_Tony_Chopper_Stantler/9998_Tony_Tony_Chopper_Stantler 2.png",
       "assets/pokemon/CPL/9998_Tony_Tony_Chopper_Stantler/9998_Tony_Tony_Chopper_Stantler 3.png"
     ],
-    "generation": 9,
+    "generation": 1,
     "types": [
       "Especial"
     ]
@@ -4186,7 +4186,7 @@ const cplData = [
       "assets/pokemon/CPL/9999_Totoro/9999_Totoro_2.jpg",
       "assets/pokemon/CPL/9999_Totoro/9999_Totoro_3.jpg"
     ],
-    "generation": 9,
+    "generation": 1,
     "types": [
       "Especial"
     ]
