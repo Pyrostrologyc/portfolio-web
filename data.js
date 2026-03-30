@@ -1885,6 +1885,20 @@ const n3dData = [
     ]
   },
   {
+    "id": "228",
+    "name": "Houndour",
+    "folder": "228_Houndour",
+    "images": [
+      "assets/pokemon/N3D/228_Houndour/Houndour.png",
+      "assets/pokemon/N3D/228_Houndour/Houndour_PalleteColour.png"
+    ],
+    "generation": 2,
+    "types": [
+      "Siniestro",
+      "Fuego"
+    ]
+  },
+  {
     "id": "243",
     "name": "Raikou",
     "folder": "243_Raikou",
