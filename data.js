@@ -4250,7 +4250,8 @@ const mapleData = [
       "assets/pokemon/Maple3D/01_Bulbasaur/4.jpg",
       "assets/pokemon/Maple3D/01_Bulbasaur/6.jpg"
     ],
-    "reel": "https://www.instagram.com/p/DVOeKMiDK58/"
+    "reel": "https://www.instagram.com/p/DVOeKMiDK58/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7611209474501594390"
   },
   {
     "id": "02",
@@ -4261,7 +4262,8 @@ const mapleData = [
       "assets/pokemon/Maple3D/02_Charmander/2.jpeg",
       "assets/pokemon/Maple3D/02_Charmander/3.jpeg"
     ],
-    "reel": "https://www.instagram.com/p/DUvuhvnDa_7/"
+    "reel": "https://www.instagram.com/p/DUvuhvnDa_7/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7606864322597309718?is_from_webapp=1&sender_device=pc&web_id=7622451059050432022"
   },
   {
     "id": "03",
@@ -4273,7 +4275,8 @@ const mapleData = [
       "assets/pokemon/Maple3D/03_Squirtle/3.jpg",
       "assets/pokemon/Maple3D/03_Squirtle/4.jpg"
     ],
-    "reel": "https://www.instagram.com/p/DUtem_7jSJ_/"
+    "reel": "https://www.instagram.com/p/DUtem_7jSJ_/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7606863760728296726?is_from_webapp=1&sender_device=pc&web_id=7622451059050432022"
   },
   {
     "id": "04",
@@ -4282,7 +4285,8 @@ const mapleData = [
     "images": [
       "assets/pokemon/Maple3D/04_Pikachu/20260218_204545.jpg"
     ],
-    "reel": "https://www.instagram.com/p/DU8jZLnDbhm/"
+    "reel": "https://www.instagram.com/p/DU8jZLnDbhm/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7608620570623724822?is_from_webapp=1&sender_device=pc&web_id=7622451059050432022"
   },
   {
     "id": "05",
@@ -4291,7 +4295,8 @@ const mapleData = [
     "images": [
       "assets/pokemon/Maple3D/05_Gengar/1.jpg"
     ],
-    "reel": "https://www.instagram.com/p/DVLvJ3BjIAs/"
+    "reel": "https://www.instagram.com/p/DVLvJ3BjIAs/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7610811392098061590?is_from_webapp=1&sender_device=pc&web_id=7622451059050432022"
   }
 ];
 

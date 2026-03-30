@@ -364,10 +364,11 @@ const lightboxClose = document.querySelector('.lightbox-close');
 let currentLightboxList = [];
 let currentLightboxIndex = -1;
 
-function openLightbox(src, caption, isVideo = false, reelUrl = null, list = [], index = -1) {
+function openLightbox(src, caption, isVideo = false, reelUrl = null, tiktokUrl = null, list = [], index = -1) {
     if (!lightbox) return;
 
     const lightboxInsta = document.getElementById('lightbox-insta');
+    const lightboxTiktok = document.getElementById('lightbox-tiktok');
 
     lightbox.classList.add('active');
 
@@ -383,6 +384,11 @@ function openLightbox(src, caption, isVideo = false, reelUrl = null, list = [], 
     if (lightboxInsta) {
         lightboxInsta.style.display = 'none';
         lightboxInsta.href = '#';
+    }
+
+    if (lightboxTiktok) {
+        lightboxTiktok.style.display = 'none';
+        lightboxTiktok.href = '#';
     }
 
     if (isVideo) {
@@ -401,6 +407,12 @@ function openLightbox(src, caption, isVideo = false, reelUrl = null, list = [], 
     if (reelUrl && reelUrl !== '#' && lightboxInsta) {
         lightboxInsta.href = reelUrl;
         lightboxInsta.style.display = 'flex';
+    }
+
+    // Handle TikTok Button
+    if (tiktokUrl && tiktokUrl !== '#' && lightboxTiktok) {
+        lightboxTiktok.href = tiktokUrl;
+        lightboxTiktok.style.display = 'flex';
     }
 
     lightboxCaption.textContent = caption;
@@ -432,6 +444,7 @@ window.navigateLightbox = function (direction) {
     let src = "";
     let caption = nextItem.name;
     let reel = nextItem.reel || null;
+    let tiktok = nextItem.tiktok || null;
 
     if (nextItem.images && nextItem.images.length > 0) {
         src = nextItem.images[0];
@@ -439,7 +452,7 @@ window.navigateLightbox = function (direction) {
         src = nextItem.src;
     }
 
-    openLightbox(src, caption, isVideo, reel, currentLightboxList, currentLightboxIndex);
+    openLightbox(src, caption, isVideo, reel, tiktok, currentLightboxList, currentLightboxIndex);
 };
 
 function closeLightbox() {
@@ -472,7 +485,7 @@ document.addEventListener('keydown', (e) => {
 });
 
 // Reuseable function to add effects to a card
-function addCardInteractions(card, pkName, reelUrl = null, list = [], index = -1) {
+function addCardInteractions(card, pkName, reelUrl = null, tiktokUrl = null, list = [], index = -1) {
     const img = card.querySelector('img');
     const video = card.querySelector('video');
 
@@ -486,7 +499,7 @@ function addCardInteractions(card, pkName, reelUrl = null, list = [], index = -1
         img.style.cursor = 'zoom-in';
         img.addEventListener('click', (e) => {
             e.stopPropagation();
-            openLightbox(img.src, pkName, false, reelUrl, list, index);
+            openLightbox(img.src, pkName, false, reelUrl, tiktokUrl, list, index);
         });
     }
 
@@ -498,7 +511,7 @@ function addCardInteractions(card, pkName, reelUrl = null, list = [], index = -1
             overlay.addEventListener('click', (e) => {
                 e.stopPropagation();
                 const title = card.querySelector('h3') ? card.querySelector('h3').textContent : 'Video';
-                openLightbox(video.src, title, true, reelUrl, list, index);
+                openLightbox(video.src, title, true, reelUrl, tiktokUrl, list, index);
             });
         }
         // Also allow clicking the video itself if controls aren't blocking
@@ -506,7 +519,7 @@ function addCardInteractions(card, pkName, reelUrl = null, list = [], index = -1
             e.stopPropagation();
             e.preventDefault(); // Prevent default play/pause
             const title = card.querySelector('h3') ? card.querySelector('h3').textContent : 'Video';
-            openLightbox(video.src, title, true, reelUrl, list, index);
+            openLightbox(video.src, title, true, reelUrl, tiktokUrl, list, index);
         });
     }
 
@@ -571,9 +584,10 @@ function renderGrid(containerId, data, extraClass = '') {
     data.forEach((pk, index) => {
         const item = createPokemonCard(pk, extraClass);
         // Add interactions to the new card, PASSING THE FULL LIST AND INDEX
-        // Pass reel URL if available (used by Looney/Maple sections)
+        // Pass reel and tiktok URL if available
         const reelUrl = pk.reel || null;
-        addCardInteractions(item, pk.name, reelUrl, data, index);
+        const tiktokUrl = pk.tiktok || null;
+        addCardInteractions(item, pk.name, reelUrl, tiktokUrl, data, index);
 
         grid.appendChild(item);
         revealObserver.observe(item);
@@ -668,7 +682,7 @@ function initDataAndSearch() {
             item.appendChild(overlay);
 
             // Add interactions (Tilt/Lightbox) - Pass Reel URL and List/Index
-            addCardInteractions(item, lt.name, lt.reel, looneyData, index);
+            addCardInteractions(item, lt.name, lt.reel, lt.tiktok || null, looneyData, index);
 
             looneyGrid.appendChild(item);
             revealObserver.observe(item);
@@ -730,7 +744,8 @@ function setupVideoControls() {
                 src: vid.src,
                 name: card.querySelector('h3') ? card.querySelector('h3').textContent : 'Star Wars Video',
                 video: true,
-                reel: card.dataset.reel || null
+                reel: card.dataset.reel || null,
+                tiktok: card.dataset.tiktok || null
             });
         }
     });
@@ -749,7 +764,7 @@ function setupVideoControls() {
 
             // Attach Lightbox & Tilt (using the shared function)
             const title = card.querySelector('h3') ? card.querySelector('h3').textContent : 'Video';
-            addCardInteractions(card, title, card.dataset.reel || null, videos, index);
+            addCardInteractions(card, title, card.dataset.reel || null, card.dataset.tiktok || null, videos, index);
         }
     });
 }

@@ -894,32 +894,63 @@ textarea {
     cursor: pointer;
 }
 
-.lightbox-action {
+.lightbox-actions {
     position: absolute;
     top: 30px;
     right: 100px;
-    /* Left of the close button */
+    display: flex;
+    gap: 10px;
+    z-index: 10001;
+}
+
+.lightbox-action {
     display: flex;
     align-items: center;
     gap: 0.5rem;
     color: #fff;
     text-decoration: none;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(5px);
-    transition: all 0.3s;
+    background: rgba(20, 20, 20, 0.6);
+    padding: 0.6rem 1.2rem;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     font-family: var(--font-body);
-    font-size: 0.9rem;
-    z-index: 10001;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
 
-.lightbox-action:hover {
-    background: rgba(225, 48, 108, 0.8);
-    /* Instagram Color */
-    transform: scale(1.05);
-    box-shadow: 0 0 15px rgba(225, 48, 108, 0.6);
+.lightbox-action.insta:hover {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(225, 48, 108, 0.5);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.lightbox-action.tiktok:hover {
+    background: #000;
+    transform: translateY(-2px);
+    box-shadow: -3px 0 15px rgba(255, 0, 80, 0.6), 3px 0 15px rgba(0, 242, 234, 0.6);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 600px) {
+    .lightbox-actions {
+        top: auto;
+        bottom: 80px;
+        right: 50%;
+        transform: translateX(50%);
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        padding: 0 20px;
+    }
+    
+    .lightbox-action {
+        padding: 0.5rem 0.8rem;
+        font-size: 0.75rem;
+    }
 }
 
 /* LIGHTBOX NAVIGATION */
