@@ -689,6 +689,12 @@ function initDataAndSearch() {
         });
     }
 
+    // Minions Grid (Modeled after Looney Tunes Rockstar style but using standard renderGrid for carousel)
+    const minionsGrid = document.getElementById('minions-grid');
+    if (minionsGrid && typeof minionsData !== 'undefined') {
+        renderGrid('minions-grid', minionsData, 'looney-card');
+    }
+
     // Urban Vibes Grid
     const urbanGrid = document.getElementById('urban-grid');
     if (urbanGrid && typeof urbanVibesData !== 'undefined') {
