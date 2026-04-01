@@ -4378,19 +4378,6 @@ const urbanVibesData = [
 const minionsData = [
   {
     "id": null,
-    "name": "Lord Miniondemort",
-    "folder": "Lord Miniondemort",
-    "images": [
-      "assets/Minions/Lord Miniondemort/Principal_Lord Miniondemort (2).jpg",
-      "assets/Minions/Lord Miniondemort/Lord Miniondemort (1).jpg",
-      "assets/Minions/Lord Miniondemort/Lord Miniondemort (3).jpg",
-      "assets/Minions/Lord Miniondemort/Lord Miniondemort (4).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DVY8irhjfzV/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7612708495120534806?is_from_webapp=1&sender_device=pc&web_id=7622451059050432022"
-  },
-  {
-    "id": null,
     "name": "Peaky Minion (Arthur)",
     "folder": "Peaky Minion (Arthur)",
     "images": [
@@ -4401,6 +4388,19 @@ const minionsData = [
     ],
     "reel": "https://www.instagram.com/p/DWjtsTyDTwE/",
     "tiktok": "https://www.tiktok.com/@pyros3d/video/7623178869041794327?is_from_webapp=1&sender_device=pc&web_id=7622451059050432022"
+  },
+  {
+    "id": null,
+    "name": "Lord Miniondemort",
+    "folder": "Lord Miniondemort",
+    "images": [
+      "assets/Minions/Lord Miniondemort/Principal_Lord Miniondemort (2).jpg",
+      "assets/Minions/Lord Miniondemort/Lord Miniondemort (1).jpg",
+      "assets/Minions/Lord Miniondemort/Lord Miniondemort (3).jpg",
+      "assets/Minions/Lord Miniondemort/Lord Miniondemort (4).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/DVY8irhjfzV/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7612708495120534806?is_from_webapp=1&sender_device=pc&web_id=7622451059050432022"
   }
 ];
 
