@@ -3742,6 +3742,40 @@ const cplData = [
     ]
   },
   {
+    "id": "849",
+    "name": "Toxtricity forma Aguda",
+    "folder": "849_Toxtricity forma Aguda",
+    "images": [
+      "assets/pokemon/CPL/849_Toxtricity forma Aguda/849_Principal_Toxtricity_Forma_Aguda.png",
+      "assets/pokemon/CPL/849_Toxtricity forma Aguda/849_Principal_Toxtricity_Forma_Aguda2.png",
+      "assets/pokemon/CPL/849_Toxtricity forma Aguda/849_Principal_Toxtricity_Forma_Aguda3.png",
+      "assets/pokemon/CPL/849_Toxtricity forma Aguda/849_Principal_Toxtricity_Forma_Aguda4.png",
+      "assets/pokemon/CPL/849_Toxtricity forma Aguda/849_Principal_Toxtricity_Forma_Aguda_Pallete.png"
+    ],
+    "generation": 8,
+    "types": [
+      "El\u00e9ctrico",
+      "Veneno"
+    ]
+  },
+  {
+    "id": "849",
+    "name": "Toxtricity forma Grave",
+    "folder": "849_Toxtricity forma Grave",
+    "images": [
+      "assets/pokemon/CPL/849_Toxtricity forma Grave/849_Principal_Toxtricity_Forma_Grave.png",
+      "assets/pokemon/CPL/849_Toxtricity forma Grave/849_Toxtricity_Forma_Grave5 (1).png",
+      "assets/pokemon/CPL/849_Toxtricity forma Grave/849_Toxtricity_Forma_Grave5 (2).png",
+      "assets/pokemon/CPL/849_Toxtricity forma Grave/849_Toxtricity_Forma_Grave5 (3).png",
+      "assets/pokemon/CPL/849_Toxtricity forma Grave/849_Toxtricity_Forma_Grave5 (4).png"
+    ],
+    "generation": 8,
+    "types": [
+      "El\u00e9ctrico",
+      "Veneno"
+    ]
+  },
+  {
     "id": "895",
     "name": "Regidrago",
     "folder": "895_Regidrago",
@@ -4249,35 +4283,6 @@ const looneyData = [
     "src": "assets/looney/Yosemite Sam RockStar.jpg",
     "name": "Yosemite Sam",
     "reel": "https://www.instagram.com/p/DVvvg_5DCMF/"
-  }
-];
-
-const minionsData = [
-  {
-    "id": null,
-    "name": "Peaky Minion (Arthur)",
-    "folder": "Peaky Minion (Arthur)",
-    "images": [
-      "assets/Minions/Peaky Minion (Arthur)/Principal_Peaky Minion (Arthur).jpeg",
-      "assets/Minions/Peaky Minion (Arthur)/Peaky Minion (1).jpg",
-      "assets/Minions/Peaky Minion (Arthur)/Peaky Minion (2).jpg",
-      "assets/Minions/Peaky Minion (Arthur)/Peaky Minion (3).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DWjtsTyDTwE/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7623178869041794327?is_from_webapp=1&sender_device=pc&web_id=7622451059050432022"
-  },
-  {
-    "id": null,
-    "name": "Lord Miniondemort",
-    "folder": "Lord Miniondemort",
-    "images": [
-      "assets/Minions/Lord Miniondemort/Principal_Lord Miniondemort (2).jpg",
-      "assets/Minions/Lord Miniondemort/Lord Miniondemort (1).jpg",
-      "assets/Minions/Lord Miniondemort/Lord Miniondemort (3).jpg",
-      "assets/Minions/Lord Miniondemort/Lord Miniondemort (4).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DVY8irhjfzV/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7612708495120534806?is_from_webapp=1&sender_device=pc&web_id=7622451059050432022"
   }
 ];
 
