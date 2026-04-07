@@ -1899,6 +1899,20 @@ const n3dData = [
     ]
   },
   {
+    "id": "229",
+    "name": "Houndoom",
+    "folder": "229_Houndoom",
+    "images": [
+      "assets/pokemon/N3D/229_Houndoom/Principal_Houndoom.png",
+      "assets/pokemon/N3D/229_Houndoom/Houndoom.png"
+    ],
+    "generation": 2,
+    "types": [
+      "Siniestro",
+      "Fuego"
+    ]
+  },
+  {
     "id": "243",
     "name": "Raikou",
     "folder": "243_Raikou",
@@ -3170,6 +3184,22 @@ const cplData = [
     "generation": 3,
     "types": [
       "Hielo"
+    ]
+  },
+  {
+    "id": "379",
+    "name": "Registeel",
+    "folder": "379_Registeel",
+    "images": [
+      "assets/pokemon/CPL/379_Registeel/Principal_Registeel.png",
+      "assets/pokemon/CPL/379_Registeel/Registeel.png",
+      "assets/pokemon/CPL/379_Registeel/Registeel2.png",
+      "assets/pokemon/CPL/379_Registeel/Registeel23.png",
+      "assets/pokemon/CPL/379_Registeel/Registeel24.png"
+    ],
+    "generation": 3,
+    "types": [
+      "Acero"
     ]
   },
   {
