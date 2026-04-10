@@ -1843,8 +1843,8 @@ const n3dData = [
     ],
     "generation": 2,
     "types": [
-      "Agua",
-      "Tierra"
+      "Tierra",
+      "Agua"
     ]
   },
   {
@@ -2748,6 +2748,23 @@ const cplData = [
     ]
   },
   {
+    "id": "094",
+    "name": "Gengar",
+    "folder": "094_Gengar",
+    "images": [
+      "assets/pokemon/CPL/094_Gengar/Gengar.png",
+      "assets/pokemon/CPL/094_Gengar/Gengar2.png",
+      "assets/pokemon/CPL/094_Gengar/Gengar23.png",
+      "assets/pokemon/CPL/094_Gengar/Gengar243.png",
+      "assets/pokemon/CPL/094_Gengar/Gengar5.png"
+    ],
+    "generation": 1,
+    "types": [
+      "Fantasma",
+      "Veneno"
+    ]
+  },
+  {
     "id": "127",
     "name": "Mega Pinsir",
     "folder": "127_Mega_Pinsir",
@@ -2983,8 +3000,8 @@ const cplData = [
     ],
     "generation": 2,
     "types": [
-      "Agua",
-      "Tierra"
+      "Tierra",
+      "Agua"
     ]
   },
   {
@@ -3861,6 +3878,21 @@ const cplData = [
     "generation": 9,
     "types": [
       "Agua"
+    ]
+  },
+  {
+    "id": "1026",
+    "name": "Browt",
+    "folder": "1026_Browt",
+    "images": [
+      "assets/pokemon/CPL/1026_Browt/Browt2.png",
+      "assets/pokemon/CPL/1026_Browt/Browt.png",
+      "assets/pokemon/CPL/1026_Browt/Browt32.png",
+      "assets/pokemon/CPL/1026_Browt/Browt42.png"
+    ],
+    "generation": 9,
+    "types": [
+      "Planta"
     ]
   },
   {
