@@ -1379,6 +1379,19 @@ const n3dData = [
     ]
   },
   {
+    "id": "118",
+    "name": "Goldeen",
+    "folder": "118_Goldeen",
+    "images": [
+      "assets/pokemon/N3D/118_Goldeen/Principal_Goldeen.png",
+      "assets/pokemon/N3D/118_Goldeen/Goldeen 2.png"
+    ],
+    "generation": 1,
+    "types": [
+      "Agua"
+    ]
+  },
+  {
     "id": "120",
     "name": "Staryu",
     "folder": "120_Staryu",
@@ -1882,6 +1895,20 @@ const n3dData = [
     "generation": 2,
     "types": [
       "Siniestro"
+    ]
+  },
+  {
+    "id": "212",
+    "name": "Scizor",
+    "folder": "212_Scizor",
+    "images": [
+      "assets/pokemon/N3D/212_Scizor/Principal_Scizor.png",
+      "assets/pokemon/N3D/212_Scizor/Scizor_2.png"
+    ],
+    "generation": 2,
+    "types": [
+      "Bicho",
+      "Acero"
     ]
   },
   {
