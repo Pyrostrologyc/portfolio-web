@@ -3923,6 +3923,21 @@ const cplData = [
     ]
   },
   {
+    "id": "1032",
+    "name": "Gecqua",
+    "folder": "1032_Gecqua",
+    "images": [
+      "assets/pokemon/CPL/1032_Gecqua/Principal_Gecqua.png",
+      "assets/pokemon/CPL/1032_Gecqua/Gecqua.png",
+      "assets/pokemon/CPL/1032_Gecqua/Gecqua2.png",
+      "assets/pokemon/CPL/1032_Gecqua/Gecqua3.png"
+    ],
+    "generation": 9,
+    "types": [
+      "Agua"
+    ]
+  },
+  {
     "id": "9973",
     "name": "Togepi Halloween",
     "folder": "175_Togepi_Halloween",
