@@ -4495,6 +4495,32 @@ const minionsData = [
   },
   {
     "id": null,
+    "name": "Peaky Minion (Bob)",
+    "folder": "Peaky Minion (Bob)",
+    "images": [
+      "assets/Minions/Peaky Minion (Bob)/Principal_Bob Shelby.jpeg",
+      "assets/Minions/Peaky Minion (Bob)/Bob Shelby2.jpeg",
+      "assets/Minions/Peaky Minion (Bob)/Bob Shelby23.jpeg",
+      "assets/Minions/Peaky Minion (Bob)/Bob Shelby243.jpeg"
+    ],
+    "reel": "#",
+    "tiktok": null
+  },
+  {
+    "id": null,
+    "name": "Peaky Minion (Stuart)",
+    "folder": "Peaky Minion (Stuart)",
+    "images": [
+      "assets/Minions/Peaky Minion (Stuart)/Principal_Stuart Shelby.jpeg",
+      "assets/Minions/Peaky Minion (Stuart)/Stuart Shelby.jpeg",
+      "assets/Minions/Peaky Minion (Stuart)/Stuart Shelby2.jpeg",
+      "assets/Minions/Peaky Minion (Stuart)/Stuart Shelby44.jpeg"
+    ],
+    "reel": "#",
+    "tiktok": null
+  },
+  {
+    "id": null,
     "name": "Lord Miniondemort",
     "folder": "Lord Miniondemort",
     "images": [
