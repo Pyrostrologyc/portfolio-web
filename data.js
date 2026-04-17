@@ -4364,29 +4364,45 @@ const cplData = [
 
 const looneyData = [
   {
-    "src": "assets/looney/Bugs Bunny RockStar.jpeg",
+    "src": "assets/Looney Tunes/RockStar/Bugs Bunny RockStar.jpeg",
     "name": "Bugs Bunny",
     "reel": "https://www.instagram.com/p/DT8kf_ADQ2w/"
   },
   {
-    "src": "assets/looney/Lola Bunny RockStar.jpeg",
+    "src": "assets/Looney Tunes/RockStar/Lola Bunny RockStar.jpeg",
     "name": "Lola Bunny",
     "reel": "https://www.instagram.com/p/DUGvO7tDW2D/"
   },
   {
-    "src": "assets/looney/Taz RockStar.jpeg",
+    "src": "assets/Looney Tunes/RockStar/Taz RockStar.jpeg",
     "name": "Taz",
     "reel": "https://www.instagram.com/p/DULtunUDU0K/"
   },
   {
-    "src": "assets/looney/Wile E. Coyote RockStar.jpeg",
+    "src": "assets/Looney Tunes/RockStar/Wile E. Coyote RockStar.jpeg",
     "name": "Wile E. Coyote",
     "reel": "https://www.instagram.com/p/DUgDBkjDU2K/"
   },
   {
-    "src": "assets/looney/Yosemite Sam RockStar.jpg",
+    "src": "assets/Looney Tunes/RockStar/Yosemite Sam RockStar.jpg",
     "name": "Yosemite Sam",
     "reel": "https://www.instagram.com/p/DVvvg_5DCMF/"
+  }
+];
+
+const looneySuperheroData = [
+  {
+    "id": null,
+    "name": "Daffy Pool",
+    "folder": "Daffy Pool",
+    "images": [
+      "assets/Looney Tunes/SuperHero/Daffy Pool/Principal_Daffy Pool.jpg",
+      "assets/Looney Tunes/SuperHero/Daffy Pool/Daffy Pool (1).jpg",
+      "assets/Looney Tunes/SuperHero/Daffy Pool/Daffy Pool (3).jpg",
+      "assets/Looney Tunes/SuperHero/Daffy Pool/Daffy Pool (4).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/DXKQ_7AjTBX/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7629046042553535766?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
   }
 ];
 
