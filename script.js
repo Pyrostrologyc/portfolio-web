@@ -689,6 +689,12 @@ function initDataAndSearch() {
         });
     }
 
+    // Looney Superhero Grid
+    const looneySuperheroGrid = document.getElementById('looney-superhero-grid');
+    if (looneySuperheroGrid && typeof looneySuperheroData !== 'undefined') {
+        renderGrid('looney-superhero-grid', looneySuperheroData, 'looney-card');
+    }
+
     // Minions Grid (Modeled after Looney Tunes Rockstar style but using standard renderGrid for carousel)
     const minionsGrid = document.getElementById('minions-grid');
     if (minionsGrid && typeof minionsData !== 'undefined') {

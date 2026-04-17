@@ -82,7 +82,7 @@
                         <a href="#pokemon-landing" class="sidebar-link" data-target="pokemon-landing" data-i18n="menu_pkmn">Pokemon
                             Collection</a>
 
-                        <a href="#looney" class="sidebar-link" data-target="looney" data-i18n="menu_looney">Looney Tunes Rockstar</a>
+                        <a href="#looney-landing" class="sidebar-link" data-target="looney-landing" data-i18n="menu_looney">Looney Tunes</a>
                         <a href="#urban-vibes" class="sidebar-link" data-target="urban-vibes" data-i18n="menu_urban">Urban Vibes</a>
                         <a href="#minions" class="sidebar-link" data-target="minions" data-i18n="menu_minions">Minions</a>
                         <a href="#amigurumi-landing" class="sidebar-link" data-target="amigurumi-landing" data-i18n="menu_ami">Amigurumi</a>
@@ -261,14 +261,43 @@
                     </div>
                 </section>
 
-                <!-- LOONEY PANEL -->
-                <section id="looney" class="content-panel">
+                <!-- LOONEY LANDING -->
+                <section id="looney-landing" class="content-panel" style="text-align:center; padding-top:4rem;">
+                    <h2 class="section-title">
+                        <span style="color:#FF5F1F; -webkit-text-stroke:0;">LOONEY TUNES</span>
+                    </h2>
+                    <div class="landing-grid"
+                        style="display:flex; justify-content:center; gap:2rem; flex-wrap:wrap; margin-top:3rem;">
+                        <div class="landing-card" onclick="navigateToSection('looney-rockstar')">
+                            <h3>ROCKSTAR</h3>
+                            <p data-i18n="explore_col">Explorar Colección</p>
+                        </div>
+                        <div class="landing-card" onclick="navigateToSection('looney-superhero')">
+                            <h3>SUPERHERO</h3>
+                            <p data-i18n="explore_col">Explorar Colección</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- LOONEY ROCKSTAR PANEL -->
+                <section id="looney-rockstar" class="content-panel">
                     <h2 class="section-title">
                         <span style="color:#FF5F1F; -webkit-text-stroke:0;">LOONEY TUNES</span>
                         <span style="color:#444444; -webkit-text-stroke:0;">ROCKSTAR</span>
                         <span style="color:#bd00ff; -webkit-text-stroke:0;">BY VITTORIA PRINT</span>
                     </h2>
                     <div id="looney-grid" class="gallery-grid">
+                        <!-- JS populated -->
+                    </div>
+                </section>
+
+                <!-- LOONEY SUPERHERO PANEL -->
+                <section id="looney-superhero" class="content-panel">
+                    <h2 class="section-title">
+                        <span style="color:#FF5F1F; -webkit-text-stroke:0;">LOONEY TUNES</span>
+                        <span style="color:#1E90FF; -webkit-text-stroke:0;">SUPERHERO</span>
+                    </h2>
+                    <div id="looney-superhero-grid" class="gallery-grid">
                         <!-- JS populated -->
                     </div>
                 </section>
