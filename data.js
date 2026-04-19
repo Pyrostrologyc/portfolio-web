@@ -4553,6 +4553,15 @@ const minionsData = [
 const amigurumiHarryPotterData = [
   {
     "id": null,
+    "name": "Dobby",
+    "folder": "Dobby",
+    "images": [
+      "assets/Amigurumi/Harry Potter/Dobby/Dobby.jpg"
+    ],
+    "reel": "#"
+  },
+  {
+    "id": null,
     "name": "Draco Malfoy",
     "folder": "Draco Malfoy",
     "images": [
