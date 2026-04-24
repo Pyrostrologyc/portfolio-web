@@ -3923,6 +3923,22 @@ const cplData = [
     ]
   },
   {
+    "id": "1029",
+    "name": "Pombon",
+    "folder": "1029_Pombon",
+    "images": [
+      "assets/pokemon/CPL/1029_Pombon/Principal_Pombon.png",
+      "assets/pokemon/CPL/1029_Pombon/Pombon.png",
+      "assets/pokemon/CPL/1029_Pombon/Pombon2.png",
+      "assets/pokemon/CPL/1029_Pombon/Pombon3.png",
+      "assets/pokemon/CPL/1029_Pombon/PombonPallete.png"
+    ],
+    "generation": 9,
+    "types": [
+      "Fuego"
+    ]
+  },
+  {
     "id": "1032",
     "name": "Gecqua",
     "folder": "1032_Gecqua",
