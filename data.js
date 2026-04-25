@@ -4412,9 +4412,9 @@ const looneySuperheroData = [
     "name": "Capt. Coyote",
     "folder": "Capt. Coyote",
     "images": [
+      "assets/Looney Tunes/SuperHero/Capt. Coyote/Principal_Coyote America (3).jpg",
       "assets/Looney Tunes/SuperHero/Capt. Coyote/Coyote America (1).jpg",
       "assets/Looney Tunes/SuperHero/Capt. Coyote/Coyote America (2).jpg",
-      "assets/Looney Tunes/SuperHero/Capt. Coyote/Coyote America (3).jpg",
       "assets/Looney Tunes/SuperHero/Capt. Coyote/Coyote America (4).jpg",
       "assets/Looney Tunes/SuperHero/Capt. Coyote/Coyote America (5).jpg"
     ],
