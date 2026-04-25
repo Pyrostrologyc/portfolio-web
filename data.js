@@ -4409,6 +4409,20 @@ const looneyData = [
 const looneySuperheroData = [
   {
     "id": null,
+    "name": "Capt. Coyote",
+    "folder": "Capt. Coyote",
+    "images": [
+      "assets/Looney Tunes/SuperHero/Capt. Coyote/Coyote America (1).jpg",
+      "assets/Looney Tunes/SuperHero/Capt. Coyote/Coyote America (2).jpg",
+      "assets/Looney Tunes/SuperHero/Capt. Coyote/Coyote America (3).jpg",
+      "assets/Looney Tunes/SuperHero/Capt. Coyote/Coyote America (4).jpg",
+      "assets/Looney Tunes/SuperHero/Capt. Coyote/Coyote America (5).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/DXcQWcnDXa6/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7631624151077309718?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
+  },
+  {
+    "id": null,
     "name": "Daffy Pool",
     "folder": "Daffy Pool",
     "images": [
