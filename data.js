@@ -4449,6 +4449,20 @@ const looneyCrossoversData = [
     ],
     "reel": "https://www.instagram.com/p/DXKQ_7AjTBX/",
     "tiktok": "https://www.tiktok.com/@pyros3d/video/7629046042553535766?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
+  },
+  {
+    "id": null,
+    "name": "MJ Bunny",
+    "folder": "MJ Bunny",
+    "images": [
+      "assets/Looney Tunes/Crossovers/MJ Bunny/Principal_MJ Bunny (1).jpg",
+      "assets/Looney Tunes/Crossovers/MJ Bunny/MJ Bunny (2).jpg",
+      "assets/Looney Tunes/Crossovers/MJ Bunny/MJ Bunny (3).jpg",
+      "assets/Looney Tunes/Crossovers/MJ Bunny/MJ Bunny (4).jpg",
+      "assets/Looney Tunes/Crossovers/MJ Bunny/MJ Bunny (5).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/DXmFtgrjSD9/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7633043849035681046?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
   }
 ];
 
