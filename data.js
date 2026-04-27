@@ -3185,6 +3185,22 @@ const cplData = [
     ]
   },
   {
+    "id": "359",
+    "name": "Mega Absol",
+    "folder": "359_Mega_Absol",
+    "images": [
+      "assets/pokemon/CPL/359_Mega_Absol/Principal_Mega_Absol.png",
+      "assets/pokemon/CPL/359_Mega_Absol/Mega_Ab2sol.png",
+      "assets/pokemon/CPL/359_Mega_Absol/Mega_Abs2l.png",
+      "assets/pokemon/CPL/359_Mega_Absol/Mega_Absol.png",
+      "assets/pokemon/CPL/359_Mega_Absol/Mega_Absol333.png"
+    ],
+    "generation": 3,
+    "types": [
+      "Siniestro"
+    ]
+  },
+  {
     "id": "362",
     "name": "Mega Glalie",
     "folder": "362_Mega_Glalie",
