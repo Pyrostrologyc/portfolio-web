@@ -4422,17 +4422,17 @@ const looneyData = [
   }
 ];
 
-const looneySuperheroData = [
+const looneyCrossoversData = [
   {
     "id": null,
     "name": "Capt. Coyote",
     "folder": "Capt. Coyote",
     "images": [
-      "assets/Looney Tunes/SuperHero/Capt. Coyote/Principal_Coyote America (3).jpg",
-      "assets/Looney Tunes/SuperHero/Capt. Coyote/Coyote America (1).jpg",
-      "assets/Looney Tunes/SuperHero/Capt. Coyote/Coyote America (2).jpg",
-      "assets/Looney Tunes/SuperHero/Capt. Coyote/Coyote America (4).jpg",
-      "assets/Looney Tunes/SuperHero/Capt. Coyote/Coyote America (5).jpg"
+      "assets/Looney Tunes/Crossovers/Capt. Coyote/Principal_Coyote America (3).jpg",
+      "assets/Looney Tunes/Crossovers/Capt. Coyote/Coyote America (1).jpg",
+      "assets/Looney Tunes/Crossovers/Capt. Coyote/Coyote America (2).jpg",
+      "assets/Looney Tunes/Crossovers/Capt. Coyote/Coyote America (4).jpg",
+      "assets/Looney Tunes/Crossovers/Capt. Coyote/Coyote America (5).jpg"
     ],
     "reel": "https://www.instagram.com/p/DXcQWcnDXa6/",
     "tiktok": "https://www.tiktok.com/@pyros3d/video/7631624151077309718?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
@@ -4442,10 +4442,10 @@ const looneySuperheroData = [
     "name": "Daffy Pool",
     "folder": "Daffy Pool",
     "images": [
-      "assets/Looney Tunes/SuperHero/Daffy Pool/Principal_Daffy Pool.jpg",
-      "assets/Looney Tunes/SuperHero/Daffy Pool/Daffy Pool (1).jpg",
-      "assets/Looney Tunes/SuperHero/Daffy Pool/Daffy Pool (3).jpg",
-      "assets/Looney Tunes/SuperHero/Daffy Pool/Daffy Pool (4).jpg"
+      "assets/Looney Tunes/Crossovers/Daffy Pool/Principal_Daffy Pool.jpg",
+      "assets/Looney Tunes/Crossovers/Daffy Pool/Daffy Pool (1).jpg",
+      "assets/Looney Tunes/Crossovers/Daffy Pool/Daffy Pool (3).jpg",
+      "assets/Looney Tunes/Crossovers/Daffy Pool/Daffy Pool (4).jpg"
     ],
     "reel": "https://www.instagram.com/p/DXKQ_7AjTBX/",
     "tiktok": "https://www.tiktok.com/@pyros3d/video/7629046042553535766?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
