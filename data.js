@@ -4463,6 +4463,19 @@ const looneyCrossoversData = [
     ],
     "reel": "https://www.instagram.com/p/DXmFtgrjSD9/",
     "tiktok": "https://www.tiktok.com/@pyros3d/video/7633043849035681046?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
+  },
+  {
+    "id": null,
+    "name": "Super Bugs Bunny",
+    "folder": "Super Bugs Bunny",
+    "images": [
+      "assets/Looney Tunes/Crossovers/Super Bugs Bunny/PRINCIPAL_SUPER BUGS BUNNY (3).jpg",
+      "assets/Looney Tunes/Crossovers/Super Bugs Bunny/SUPER BUGS BUNNY (1).jpg",
+      "assets/Looney Tunes/Crossovers/Super Bugs Bunny/SUPER BUGS BUNNY (2).jpg",
+      "assets/Looney Tunes/Crossovers/Super Bugs Bunny/SUPER BUGS BUNNY (4).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/DX7NaLhtcq3/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7636070786121420054?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
   }
 ];
 
