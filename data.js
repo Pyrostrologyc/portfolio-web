@@ -3171,6 +3171,23 @@ const cplData = [
     ]
   },
   {
+    "id": "330",
+    "name": "Flygon",
+    "folder": "330_Flygon",
+    "images": [
+      "assets/pokemon/CPL/330_Flygon/Principal_Flygon.jpg",
+      "assets/pokemon/CPL/330_Flygon/Flygon (1).jpg",
+      "assets/pokemon/CPL/330_Flygon/Flygon (2).jpg",
+      "assets/pokemon/CPL/330_Flygon/b475be99-af82-4999-a216-b0732b79dd0e.jpeg",
+      "assets/pokemon/CPL/330_Flygon/figura_sin_marca_de_agua.png"
+    ],
+    "generation": 3,
+    "types": [
+      "Tierra",
+      "Drag\u00f3n"
+    ]
+  },
+  {
     "id": "355",
     "name": "Duskull",
     "folder": "355_Duskull",
@@ -4422,62 +4439,7 @@ const looneyData = [
   }
 ];
 
-const looneyCrossoversData = [
-  {
-    "id": null,
-    "name": "Capt. Coyote",
-    "folder": "Capt. Coyote",
-    "images": [
-      "assets/Looney Tunes/Crossovers/Capt. Coyote/Principal_Coyote America (3).jpg",
-      "assets/Looney Tunes/Crossovers/Capt. Coyote/Coyote America (1).jpg",
-      "assets/Looney Tunes/Crossovers/Capt. Coyote/Coyote America (2).jpg",
-      "assets/Looney Tunes/Crossovers/Capt. Coyote/Coyote America (4).jpg",
-      "assets/Looney Tunes/Crossovers/Capt. Coyote/Coyote America (5).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DXcQWcnDXa6/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7631624151077309718?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
-  },
-  {
-    "id": null,
-    "name": "Daffy Pool",
-    "folder": "Daffy Pool",
-    "images": [
-      "assets/Looney Tunes/Crossovers/Daffy Pool/Principal_Daffy Pool.jpg",
-      "assets/Looney Tunes/Crossovers/Daffy Pool/Daffy Pool (1).jpg",
-      "assets/Looney Tunes/Crossovers/Daffy Pool/Daffy Pool (3).jpg",
-      "assets/Looney Tunes/Crossovers/Daffy Pool/Daffy Pool (4).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DXKQ_7AjTBX/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7629046042553535766?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
-  },
-  {
-    "id": null,
-    "name": "MJ Bunny",
-    "folder": "MJ Bunny",
-    "images": [
-      "assets/Looney Tunes/Crossovers/MJ Bunny/Principal_MJ Bunny (1).jpg",
-      "assets/Looney Tunes/Crossovers/MJ Bunny/MJ Bunny (2).jpg",
-      "assets/Looney Tunes/Crossovers/MJ Bunny/MJ Bunny (3).jpg",
-      "assets/Looney Tunes/Crossovers/MJ Bunny/MJ Bunny (4).jpg",
-      "assets/Looney Tunes/Crossovers/MJ Bunny/MJ Bunny (5).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DXmFtgrjSD9/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7633043849035681046?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
-  },
-  {
-    "id": null,
-    "name": "Super Bugs Bunny",
-    "folder": "Super Bugs Bunny",
-    "images": [
-      "assets/Looney Tunes/Crossovers/Super Bugs Bunny/PRINCIPAL_SUPER BUGS BUNNY (3).jpg",
-      "assets/Looney Tunes/Crossovers/Super Bugs Bunny/SUPER BUGS BUNNY (1).jpg",
-      "assets/Looney Tunes/Crossovers/Super Bugs Bunny/SUPER BUGS BUNNY (2).jpg",
-      "assets/Looney Tunes/Crossovers/Super Bugs Bunny/SUPER BUGS BUNNY (4).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DX7NaLhtcq3/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7636070786121420054?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
-  }
-];
+const looneySuperheroData = [];
 
 const mapleData = [
   {
