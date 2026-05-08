@@ -567,16 +567,21 @@ function renderGrid(containerId, data, extraClass = '') {
     if (data.length === 0) {
         const msg = document.createElement('div');
         msg.className = 'no-results-message';
-        // Select random funny message or standard one
-        const messages = typeof noResultsMessages !== 'undefined' && typeof currentLang !== 'undefined' && noResultsMessages[currentLang]
-            ? noResultsMessages[currentLang]
-            : [
-                "No se ha encontrado ningún Pokémon.",
-                "¡Ese Pokémon se ha escapado!",
-                "¿Seguro que se escribe así?",
-                "La Pokédex no reconoce esa consulta."
-            ];
-        msg.textContent = messages[Math.floor(Math.random() * messages.length)];
+        
+        if (containerId.includes('amigurumi')) {
+            msg.innerHTML = '<span style="font-size: 1.5em; display: block; margin-bottom: 10px;">🚧</span> Coming soon... / Próximamente...';
+        } else {
+            // Select random funny message or standard one
+            const messages = typeof noResultsMessages !== 'undefined' && typeof currentLang !== 'undefined' && noResultsMessages[currentLang]
+                ? noResultsMessages[currentLang]
+                : [
+                    "No se ha encontrado ningún Pokémon.",
+                    "¡Ese Pokémon se ha escapado!",
+                    "¿Seguro que se escribe así?",
+                    "La Pokédex no reconoce esa consulta."
+                ];
+            msg.textContent = messages[Math.floor(Math.random() * messages.length)];
+        }
         grid.appendChild(msg);
         return;
     }
