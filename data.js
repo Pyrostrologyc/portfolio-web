@@ -4415,31 +4415,105 @@ const looneyData = [
   {
     "src": "assets/Looney Tunes/RockStar/Bugs Bunny RockStar.jpeg",
     "name": "Bugs Bunny",
-    "reel": "https://www.instagram.com/p/DT8kf_ADQ2w/"
+    "reel": "https://www.instagram.com/p/DT8kf_ADQ2w/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7599750528154832150?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
   },
   {
     "src": "assets/Looney Tunes/RockStar/Lola Bunny RockStar.jpeg",
     "name": "Lola Bunny",
-    "reel": "https://www.instagram.com/p/DUGvO7tDW2D/"
+    "reel": "https://www.instagram.com/p/DUGvO7tDW2D/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7600903151272594710?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
   },
   {
     "src": "assets/Looney Tunes/RockStar/Taz RockStar.jpeg",
     "name": "Taz",
-    "reel": "https://www.instagram.com/p/DULtunUDU0K/"
+    "reel": "https://www.instagram.com/p/DULtunUDU0K/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7601697489720315158?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
   },
   {
     "src": "assets/Looney Tunes/RockStar/Wile E. Coyote RockStar.jpeg",
     "name": "Wile E. Coyote",
-    "reel": "https://www.instagram.com/p/DUgDBkjDU2K/"
+    "reel": "https://www.instagram.com/p/DUgDBkjDU2K/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7604601557245496598?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
   },
   {
     "src": "assets/Looney Tunes/RockStar/Yosemite Sam RockStar.jpg",
     "name": "Yosemite Sam",
-    "reel": "https://www.instagram.com/p/DVvvg_5DCMF/"
+    "reel": "https://www.instagram.com/p/DVvvg_5DCMF/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7615999575865789719?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
   }
 ];
 
-const looneySuperheroData = [];
+const looneyCrossoversData = [
+  {
+    "id": null,
+    "name": "Capt. Coyote",
+    "folder": "Capt. Coyote",
+    "images": [
+      "assets/Looney Tunes/Crossovers/Capt. Coyote/Principal_Coyote America (3).jpg",
+      "assets/Looney Tunes/Crossovers/Capt. Coyote/Coyote America (1).jpg",
+      "assets/Looney Tunes/Crossovers/Capt. Coyote/Coyote America (2).jpg",
+      "assets/Looney Tunes/Crossovers/Capt. Coyote/Coyote America (4).jpg",
+      "assets/Looney Tunes/Crossovers/Capt. Coyote/Coyote America (5).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/DXcQWcnDXa6/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7631624151077309718?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
+  },
+  {
+    "id": null,
+    "name": "Daffy Pool",
+    "folder": "Daffy Pool",
+    "images": [
+      "assets/Looney Tunes/Crossovers/Daffy Pool/Principal_Daffy Pool.jpg",
+      "assets/Looney Tunes/Crossovers/Daffy Pool/Daffy Pool (1).jpg",
+      "assets/Looney Tunes/Crossovers/Daffy Pool/Daffy Pool (3).jpg",
+      "assets/Looney Tunes/Crossovers/Daffy Pool/Daffy Pool (4).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/DXKQ_7AjTBX/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7629046042553535766?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
+  },
+  {
+    "id": null,
+    "name": "MJ Bunny",
+    "folder": "MJ Bunny",
+    "images": [
+      "assets/Looney Tunes/Crossovers/MJ Bunny/Principal_MJ Bunny (1).jpg",
+      "assets/Looney Tunes/Crossovers/MJ Bunny/MJ Bunny (2).jpg",
+      "assets/Looney Tunes/Crossovers/MJ Bunny/MJ Bunny (3).jpg",
+      "assets/Looney Tunes/Crossovers/MJ Bunny/MJ Bunny (4).jpg",
+      "assets/Looney Tunes/Crossovers/MJ Bunny/MJ Bunny (5).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/DXmFtgrjSD9/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7633043849035681046?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
+  },
+  {
+    "id": null,
+    "name": "Super Bugs Bunny",
+    "folder": "Super Bugs Bunny",
+    "images": [
+      "assets/Looney Tunes/Crossovers/Super Bugs Bunny/PRINCIPAL_SUPER BUGS BUNNY (3).jpg",
+      "assets/Looney Tunes/Crossovers/Super Bugs Bunny/SUPER BUGS BUNNY (1).jpg",
+      "assets/Looney Tunes/Crossovers/Super Bugs Bunny/SUPER BUGS BUNNY (2).jpg",
+      "assets/Looney Tunes/Crossovers/Super Bugs Bunny/SUPER BUGS BUNNY (4).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/DX7NaLhtcq3/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7636070786121420054?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
+  },
+  {
+    "id": null,
+    "name": "Taz - Peaky Blinders",
+    "folder": "Taz - Peaky Blinders",
+    "images": [
+      "assets/Looney Tunes/Crossovers/Taz - Peaky Blinders/Principal_Taz Peaky Blinders (2).jpg",
+      "assets/Looney Tunes/Crossovers/Taz - Peaky Blinders/Taz Peaky Blinders (1).jpg",
+      "assets/Looney Tunes/Crossovers/Taz - Peaky Blinders/Taz Peaky Blinders (3).jpg",
+      "assets/Looney Tunes/Crossovers/Taz - Peaky Blinders/Taz Peaky Blinders (4).jpg",
+      "assets/Looney Tunes/Crossovers/Taz - Peaky Blinders/Taz Peaky Blinders (5).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/DYC4lCyuYob/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7636879406497156374?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
+  }
+];
 
 const mapleData = [
   {
