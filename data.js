@@ -3093,6 +3093,22 @@ const cplData = [
     ]
   },
   {
+    "id": "239",
+    "name": "Elekid",
+    "folder": "239_Elekid",
+    "images": [
+      "assets/pokemon/CPL/239_Elekid/Principal_Elekid (1).png",
+      "assets/pokemon/CPL/239_Elekid/Elekid (1).jpg",
+      "assets/pokemon/CPL/239_Elekid/Elekid (2).jpg",
+      "assets/pokemon/CPL/239_Elekid/Elekid (3).jpg",
+      "assets/pokemon/CPL/239_Elekid/Elekid (4).jpg"
+    ],
+    "generation": 2,
+    "types": [
+      "El\u00e9ctrico"
+    ]
+  },
+  {
     "id": "252",
     "name": "Treecko",
     "folder": "252_Treecko",
