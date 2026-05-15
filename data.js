@@ -4477,6 +4477,19 @@ const looneyCrossoversData = [
   },
   {
     "id": null,
+    "name": "Daffy - Peaky Blinders",
+    "folder": "Daffy - Peaky Blinders",
+    "images": [
+      "assets/Looney Tunes/Crossovers/Daffy - Peaky Blinders/Principal_Daffy - Peaky Blinders (3).jpg",
+      "assets/Looney Tunes/Crossovers/Daffy - Peaky Blinders/Daffy - Peaky Blinders (1).jpg",
+      "assets/Looney Tunes/Crossovers/Daffy - Peaky Blinders/Daffy - Peaky Blinders (4).jpg",
+      "assets/Looney Tunes/Crossovers/Daffy - Peaky Blinders/Daffy - Peaky Blinders (5).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/DYP2ac8N_F3/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7639072985931975958"
+  },
+  {
+    "id": null,
     "name": "Daffy Pool",
     "folder": "Daffy Pool",
     "images": [
