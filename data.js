@@ -1029,6 +1029,49 @@ const n3dData = [
     ]
   },
   {
+    "id": "074",
+    "name": "Geodude",
+    "folder": "074_Geodude",
+    "images": [
+      "assets/pokemon/N3D/074_Geodude/Principal_Geodude.jpg",
+      "assets/pokemon/N3D/074_Geodude/Geodude.jpg"
+    ],
+    "generation": 1,
+    "types": [
+      "Roca",
+      "Tierra"
+    ]
+  },
+  {
+    "id": "075",
+    "name": "Graveler",
+    "folder": "075_Graveler",
+    "images": [
+      "assets/pokemon/N3D/075_Graveler/Principal_Graveler.jpg",
+      "assets/pokemon/N3D/075_Graveler/Graveler.jpg"
+    ],
+    "generation": 1,
+    "types": [
+      "Roca",
+      "Tierra"
+    ]
+  },
+  {
+    "id": "076",
+    "name": "Golem",
+    "folder": "076_Golem",
+    "images": [
+      "assets/pokemon/N3D/076_Golem/Principal_Golem.jpg",
+      "assets/pokemon/N3D/076_Golem/Golem.jpg",
+      "assets/pokemon/N3D/076_Golem/Golem2.jpg"
+    ],
+    "generation": 1,
+    "types": [
+      "Roca",
+      "Tierra"
+    ]
+  },
+  {
     "id": "077",
     "name": "Galarian Ponyta",
     "folder": "077_Galarian_Ponyta",
