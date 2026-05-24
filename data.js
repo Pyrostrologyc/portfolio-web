@@ -1435,6 +1435,19 @@ const n3dData = [
     ]
   },
   {
+    "id": "119",
+    "name": "Seaking",
+    "folder": "119_Seaking",
+    "images": [
+      "assets/pokemon/N3D/119_Seaking/Principal_Seaking.jpg",
+      "assets/pokemon/N3D/119_Seaking/Seaking.jpg"
+    ],
+    "generation": 1,
+    "types": [
+      "Agua"
+    ]
+  },
+  {
     "id": "120",
     "name": "Staryu",
     "folder": "120_Staryu",
