@@ -4597,6 +4597,20 @@ const looneyCrossoversData = [
     ],
     "reel": "https://www.instagram.com/p/DYC4lCyuYob/",
     "tiktok": "https://www.tiktok.com/@pyros3d/video/7636879406497156374?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
+  },
+  {
+    "id": null,
+    "name": "Bugs Bunny - Peaky Blinders",
+    "folder": "Bugs Bunny - Peaky Blinders",
+    "images": [
+      "assets/Looney Tunes/Crossovers/Bugs Bunny - Peaky Blinders/Principal_Bugs Bunny - Peaky Blinders (4).jpg",
+      "assets/Looney Tunes/Crossovers/Bugs Bunny - Peaky Blinders/Bugs Bunny - Peaky Blinders (1).jpg",
+      "assets/Looney Tunes/Crossovers/Bugs Bunny - Peaky Blinders/Bugs Bunny - Peaky Blinders (2).jpg",
+      "assets/Looney Tunes/Crossovers/Bugs Bunny - Peaky Blinders/Bugs Bunny - Peaky Blinders (3).jpg",
+      "assets/Looney Tunes/Crossovers/Bugs Bunny - Peaky Blinders/Bugs Bunny - Peaky Blinders (5).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/DYxTTRsNwgh/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7642681350801132822?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
   }
 ];
 
