@@ -700,6 +700,13 @@ function initDataAndSearch() {
         renderGrid('looney-crossovers-grid', looneyCrossoversData, 'looney-card');
     }
 
+    // Looney Peaky Blinders Grid
+    const looneyPeakyGrid = document.getElementById('looney-peaky-grid');
+    if (looneyPeakyGrid && typeof looneyPeakyData !== 'undefined') {
+        renderGrid('looney-peaky-grid', looneyPeakyData, 'looney-card');
+    }
+
+
     // Minions Grid (Modeled after Looney Tunes Rockstar style but using standard renderGrid for carousel)
     const minionsGrid = document.getElementById('minions-grid');
     if (minionsGrid && typeof minionsData !== 'undefined') {
