@@ -105,6 +105,20 @@ const n3dData = [
     ]
   },
   {
+    "id": "006",
+    "name": "Mega Charizard Y",
+    "folder": "006_Mega Charizard Y",
+    "images": [
+      "assets/pokemon/N3D/006_Mega Charizard Y/Principal_Charizard Y.jpg",
+      "assets/pokemon/N3D/006_Mega Charizard Y/Mega Charizard Y.png"
+    ],
+    "generation": 1,
+    "types": [
+      "Fuego",
+      "Volador"
+    ]
+  },
+  {
     "id": "007",
     "name": "Squirtle",
     "folder": "007_Squirtle",
@@ -1476,6 +1490,20 @@ const n3dData = [
     ]
   },
   {
+    "id": "122",
+    "name": "Mr. Mime",
+    "folder": "122_Mr. Mime",
+    "images": [
+      "assets/pokemon/N3D/122_Mr. Mime/Mr. Mime.png",
+      "assets/pokemon/N3D/122_Mr. Mime/Mr. Mime2.png"
+    ],
+    "generation": 1,
+    "types": [
+      "Ps\u00edquico",
+      "Hada"
+    ]
+  },
+  {
     "id": "123",
     "name": "Scyther",
     "folder": "123_Scyther",
@@ -2287,6 +2315,20 @@ const n3dData = [
     ]
   },
   {
+    "id": "389",
+    "name": "Torterra",
+    "folder": "389_Torterra",
+    "images": [
+      "assets/pokemon/N3D/389_Torterra/Principal_Torterra (2).png",
+      "assets/pokemon/N3D/389_Torterra/Torterra (1).png"
+    ],
+    "generation": 4,
+    "types": [
+      "Planta",
+      "Tierra"
+    ]
+  },
+  {
     "id": "393",
     "name": "Piplup",
     "folder": "393_Piplup",
@@ -2531,6 +2573,20 @@ const n3dData = [
     "generation": 5,
     "types": [
       "Fantasma",
+      "Fuego"
+    ]
+  },
+  {
+    "id": "643",
+    "name": "Reshiram",
+    "folder": "643_Reshiram",
+    "images": [
+      "assets/pokemon/N3D/643_Reshiram/Principal_Reshiram.png",
+      "assets/pokemon/N3D/643_Reshiram/Reshiram.png"
+    ],
+    "generation": 5,
+    "types": [
+      "Drag\u00f3n",
       "Fuego"
     ]
   },
@@ -3779,7 +3835,11 @@ const cplData = [
     "images": [
       "assets/pokemon/CPL/722_Rowlet/722_Rowlet_2.jpg",
       "assets/pokemon/CPL/722_Rowlet/722_Rowlet.jpg",
-      "assets/pokemon/CPL/722_Rowlet/722_Rowlet_1.jpg"
+      "assets/pokemon/CPL/722_Rowlet/722_Rowlet_1.jpg",
+      "assets/pokemon/CPL/722_Rowlet/Principal2NewRowlet.jpg",
+      "assets/pokemon/CPL/722_Rowlet/NewRowlet.jpg",
+      "assets/pokemon/CPL/722_Rowlet/NewRowlet2.jpg",
+      "assets/pokemon/CPL/722_Rowlet/NewRowlet3.jpg"
     ],
     "generation": 7,
     "types": [
