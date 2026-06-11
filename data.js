@@ -4833,6 +4833,20 @@ const mapleData = [
 const urbanVibesData = [
   {
     "id": null,
+    "name": "Goofy Urban CW Prestige",
+    "folder": "Goofy Urban CW Prestige",
+    "images": [
+      "assets/Urban Vibes/Goofy Urban CW Prestige/Principal_Goofy Urban Vibes (2).jpg",
+      "assets/Urban Vibes/Goofy Urban CW Prestige/Goofy Urban Vibes (1).jpg",
+      "assets/Urban Vibes/Goofy Urban CW Prestige/Goofy Urban Vibes (3).jpg",
+      "assets/Urban Vibes/Goofy Urban CW Prestige/Goofy Urban Vibes (4).jpg",
+      "assets/Urban Vibes/Goofy Urban CW Prestige/Goofy Urban Vibes (5).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/DZNnFt5teQ3/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7647618855124143362"
+  },
+  {
+    "id": null,
     "name": "Goofy Urban",
     "folder": "Goofy_Urban",
     "images": [
@@ -4841,7 +4855,8 @@ const urbanVibesData = [
       "assets/Urban Vibes/Goofy_Urban/WhatsApp Image 2025-11-12 at 15.57.49 (3).jpeg",
       "assets/Urban Vibes/Goofy_Urban/WhatsApp Image 2025-11-12 at 15.57.50.jpeg"
     ],
-    "reel": "#"
+    "reel": "#",
+    "tiktok": "#"
   },
   {
     "id": null,
