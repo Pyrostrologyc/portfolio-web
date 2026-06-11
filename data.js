@@ -1099,6 +1099,32 @@ const n3dData = [
     ]
   },
   {
+    "id": "079",
+    "name": "Slowpoke",
+    "folder": "079_Slowpoke",
+    "images": [
+      "assets/pokemon/N3D/079_Slowpoke/SlowPoke.png"
+    ],
+    "generation": 1,
+    "types": [
+      "Agua",
+      "Ps\u00edquico"
+    ]
+  },
+  {
+    "id": "080",
+    "name": "Slowbro",
+    "folder": "080_Slowbro",
+    "images": [
+      "assets/pokemon/N3D/080_Slowbro/Slowbro.png"
+    ],
+    "generation": 1,
+    "types": [
+      "Agua",
+      "Ps\u00edquico"
+    ]
+  },
+  {
     "id": "081",
     "name": "Magnemite",
     "folder": "081_Magnemite",
@@ -1247,6 +1273,19 @@ const n3dData = [
     "types": [
       "Roca",
       "Tierra"
+    ]
+  },
+  {
+    "id": "096",
+    "name": "Drowzee",
+    "folder": "096_Drowzee",
+    "images": [
+      "assets/pokemon/N3D/096_Drowzee/Principal_Drowzee (1).jpg",
+      "assets/pokemon/N3D/096_Drowzee/Drowzee (2).jpg"
+    ],
+    "generation": 1,
+    "types": [
+      "Ps\u00edquico"
     ]
   },
   {
@@ -1530,6 +1569,18 @@ const n3dData = [
     "generation": 1,
     "types": [
       "El\u00e9ctrico"
+    ]
+  },
+  {
+    "id": "126",
+    "name": "Magmar",
+    "folder": "126_Magmar",
+    "images": [
+      "assets/pokemon/N3D/126_Magmar/Magmar.jpg"
+    ],
+    "generation": 1,
+    "types": [
+      "Fuego"
     ]
   },
   {
@@ -3833,10 +3884,10 @@ const cplData = [
     "name": "Rowlet",
     "folder": "722_Rowlet",
     "images": [
-      "assets/pokemon/CPL/722_Rowlet/722_Rowlet_2.jpg",
+      "assets/pokemon/CPL/722_Rowlet/Principal2NewRowlet.jpg",
       "assets/pokemon/CPL/722_Rowlet/722_Rowlet.jpg",
       "assets/pokemon/CPL/722_Rowlet/722_Rowlet_1.jpg",
-      "assets/pokemon/CPL/722_Rowlet/Principal2NewRowlet.jpg",
+      "assets/pokemon/CPL/722_Rowlet/722_Rowlet_2.jpg",
       "assets/pokemon/CPL/722_Rowlet/NewRowlet.jpg",
       "assets/pokemon/CPL/722_Rowlet/NewRowlet2.jpg",
       "assets/pokemon/CPL/722_Rowlet/NewRowlet3.jpg"
@@ -4630,77 +4681,6 @@ const looneyCrossoversData = [
     ],
     "reel": "https://www.instagram.com/p/DX7NaLhtcq3/",
     "tiktok": "https://www.tiktok.com/@pyros3d/video/7636070786121420054?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
-  }
-];
-
-const looneyPeakyData = [
-  {
-    "id": null,
-    "name": "Daffy - Peaky Blinders",
-    "folder": "Daffy - Peaky Blinders",
-    "images": [
-      "assets/Looney Tunes/Peaky Blinders/Daffy - Peaky Blinders/Principal_Daffy - Peaky Blinders (3).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Daffy - Peaky Blinders/Daffy - Peaky Blinders (1).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Daffy - Peaky Blinders/Daffy - Peaky Blinders (4).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Daffy - Peaky Blinders/Daffy - Peaky Blinders (5).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DYP2ac8N_F3/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7639072985931975958"
-  },
-  {
-    "id": null,
-    "name": "Taz - Peaky Blinders",
-    "folder": "Taz - Peaky Blinders",
-    "images": [
-      "assets/Looney Tunes/Peaky Blinders/Taz - Peaky Blinders/Principal_Taz Peaky Blinders (2).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Taz - Peaky Blinders/Taz Peaky Blinders (1).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Taz - Peaky Blinders/Taz Peaky Blinders (3).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Taz - Peaky Blinders/Taz Peaky Blinders (4).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Taz - Peaky Blinders/Taz Peaky Blinders (5).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DYC4lCyuYob/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7636879406497156374?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
-  },
-  {
-    "id": null,
-    "name": "Bugs Bunny - Peaky Blinders",
-    "folder": "Bugs Bunny - Peaky Blinders",
-    "images": [
-      "assets/Looney Tunes/Peaky Blinders/Bugs Bunny - Peaky Blinders/Principal_Bugs Bunny - Peaky Blinders (4).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Bugs Bunny - Peaky Blinders/Bugs Bunny - Peaky Blinders (1).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Bugs Bunny - Peaky Blinders/Bugs Bunny - Peaky Blinders (2).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Bugs Bunny - Peaky Blinders/Bugs Bunny - Peaky Blinders (3).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Bugs Bunny - Peaky Blinders/Bugs Bunny - Peaky Blinders (5).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DYxTTRsNwgh/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7642681350801132822?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
-  },
-  {
-    "id": null,
-    "name": "Granny - Peaky Blinders",
-    "folder": "Granny - Peaky Blinders",
-    "images": [
-      "assets/Looney Tunes/Peaky Blinders/Granny - Peaky Blinders/Principal_Granny Peaky Blinders (2).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Granny - Peaky Blinders/Granny Peaky Blinders (1).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Granny - Peaky Blinders/Granny Peaky Blinders (3).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Granny - Peaky Blinders/Granny Peaky Blinders (4).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DY5AwFANPc9/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7644645393392815382?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
-  },
-  {
-    "id": null,
-    "name": "Porky - Peaky Blinders",
-    "folder": "Porky - Peaky Blinders",
-    "images": [
-      "assets/Looney Tunes/Peaky Blinders/Porky - Peaky Blinders/Principal_Porky - Peaky Blinders (2).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Porky - Peaky Blinders/Porky - Peaky Blinders (1).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Porky - Peaky Blinders/Porky - Peaky Blinders (3).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Porky - Peaky Blinders/Porky - Peaky Blinders (4).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Porky - Peaky Blinders/Porky - Peaky Blinders (5).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DZDT7ZANvcO/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7645741851705707798?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
   }
 ];
 
