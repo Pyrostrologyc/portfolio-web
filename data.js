@@ -3195,6 +3195,22 @@ const cplData = [
     ]
   },
   {
+    "id": "196",
+    "name": "Espeon",
+    "folder": "196_Espeon",
+    "images": [
+      "assets/pokemon/CPL/196_Espeon/Principal_Espeon.jpeg",
+      "assets/pokemon/CPL/196_Espeon/Espeo33n2.jpeg",
+      "assets/pokemon/CPL/196_Espeon/Espeon.jpeg",
+      "assets/pokemon/CPL/196_Espeon/Espeon2.jpeg",
+      "assets/pokemon/CPL/196_Espeon/Espeon23.jpeg"
+    ],
+    "generation": 2,
+    "types": [
+      "Ps\u00edquico"
+    ]
+  },
+  {
     "id": "197",
     "name": "Umbreon",
     "folder": "197_Umbreon",
@@ -4228,6 +4244,21 @@ const cplData = [
     ]
   },
   {
+    "id": "9976",
+    "name": "Brook Duskull",
+    "folder": "9976_Brook Duskull",
+    "images": [
+      "assets/pokemon/CPL/9976_Brook Duskull/Principal_Brook_Duskull.jpeg",
+      "assets/pokemon/CPL/9976_Brook Duskull/Brook_Dusk2222ull.jpeg",
+      "assets/pokemon/CPL/9976_Brook Duskull/Brook_Dusk2ull.jpeg",
+      "assets/pokemon/CPL/9976_Brook Duskull/Brook_Duskull.jpeg"
+    ],
+    "generation": 6,
+    "types": [
+      "Especial"
+    ]
+  },
+  {
     "id": "9977",
     "name": "Peakychu",
     "folder": "9977_Peakychu",
@@ -4684,90 +4715,6 @@ const looneyCrossoversData = [
   }
 ];
 
-const looneyPeakyData = [
-  {
-    "id": null,
-    "name": "Bugs Bunny - Peaky Blinders",
-    "folder": "Bugs Bunny - Peaky Blinders",
-    "images": [
-      "assets/Looney Tunes/Peaky Blinders/Bugs Bunny - Peaky Blinders/Principal_Bugs Bunny - Peaky Blinders (4).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Bugs Bunny - Peaky Blinders/Bugs Bunny - Peaky Blinders (1).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Bugs Bunny - Peaky Blinders/Bugs Bunny - Peaky Blinders (2).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Bugs Bunny - Peaky Blinders/Bugs Bunny - Peaky Blinders (3).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Bugs Bunny - Peaky Blinders/Bugs Bunny - Peaky Blinders (5).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DYxTTRsNwgh/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7642681350801132822"
-  },
-  {
-    "id": null,
-    "name": "Daffy - Peaky Blinders",
-    "folder": "Daffy - Peaky Blinders",
-    "images": [
-      "assets/Looney Tunes/Peaky Blinders/Daffy - Peaky Blinders/Principal_Daffy - Peaky Blinders (3).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Daffy - Peaky Blinders/Daffy - Peaky Blinders (1).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Daffy - Peaky Blinders/Daffy - Peaky Blinders (4).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Daffy - Peaky Blinders/Daffy - Peaky Blinders (5).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DYP2ac8N_F3/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7639072985931975958"
-  },
-  {
-    "id": null,
-    "name": "Granny - Peaky Blinders",
-    "folder": "Granny - Peaky Blinders",
-    "images": [
-      "assets/Looney Tunes/Peaky Blinders/Granny - Peaky Blinders/Principal_Granny Peaky Blinders (2).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Granny - Peaky Blinders/Granny Peaky Blinders (1).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Granny - Peaky Blinders/Granny Peaky Blinders (3).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Granny - Peaky Blinders/Granny Peaky Blinders (4).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DY5AwFANPc9/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7644645393392815382?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
-  },
-  {
-    "id": null,
-    "name": "Porky - Peaky Blinders",
-    "folder": "Porky - Peaky Blinders",
-    "images": [
-      "assets/Looney Tunes/Peaky Blinders/Porky - Peaky Blinders/Principal_Porky - Peaky Blinders (2).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Porky - Peaky Blinders/Porky - Peaky Blinders (1).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Porky - Peaky Blinders/Porky - Peaky Blinders (3).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Porky - Peaky Blinders/Porky - Peaky Blinders (4).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Porky - Peaky Blinders/Porky - Peaky Blinders (5).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DZDT7ZANvcO/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7645741851705707798?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
-  },
-  {
-    "id": null,
-    "name": "Taz - Peaky Blinders",
-    "folder": "Taz - Peaky Blinders",
-    "images": [
-      "assets/Looney Tunes/Peaky Blinders/Taz - Peaky Blinders/Principal_Taz Peaky Blinders (2).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Taz - Peaky Blinders/Taz Peaky Blinders (1).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Taz - Peaky Blinders/Taz Peaky Blinders (3).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Taz - Peaky Blinders/Taz Peaky Blinders (4).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Taz - Peaky Blinders/Taz Peaky Blinders (5).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DYC4lCyuYob/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7636879406497156374"
-  },
-  {
-    "id": null,
-    "name": "Yosemite Sam - Peaky Blinders",
-    "folder": "Yosemite Sam - Peaky Blinders",
-    "images": [
-      "assets/Looney Tunes/Peaky Blinders/Yosemite Sam - Peaky Blinders/Principal_Yosemite Sam (2).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Yosemite Sam - Peaky Blinders/Yosemite Sam (1).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Yosemite Sam - Peaky Blinders/Yosemite Sam (3).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Yosemite Sam - Peaky Blinders/Yosemite Sam (4).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DZVTWM6tcai/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7649072847649901846"
-  }
-];
-
 const mapleData = [
   {
     "id": "01",
@@ -4842,8 +4789,7 @@ const urbanVibesData = [
       "assets/Urban Vibes/Goofy Urban CW Prestige/Goofy Urban Vibes (4).jpg",
       "assets/Urban Vibes/Goofy Urban CW Prestige/Goofy Urban Vibes (5).jpg"
     ],
-    "reel": "https://www.instagram.com/p/DZNnFt5teQ3/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7647618855124143362"
+    "reel": "#"
   },
   {
     "id": null,
@@ -4855,8 +4801,7 @@ const urbanVibesData = [
       "assets/Urban Vibes/Goofy_Urban/WhatsApp Image 2025-11-12 at 15.57.49 (3).jpeg",
       "assets/Urban Vibes/Goofy_Urban/WhatsApp Image 2025-11-12 at 15.57.50.jpeg"
     ],
-    "reel": "#",
-    "tiktok": "#"
+    "reel": "#"
   },
   {
     "id": null,
