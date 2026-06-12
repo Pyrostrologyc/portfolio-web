@@ -4186,6 +4186,21 @@ const cplData = [
     ]
   },
   {
+    "id": "9972",
+    "name": "Brook Duskull",
+    "folder": "9972_Brook Duskull",
+    "images": [
+      "assets/pokemon/CPL/9972_Brook Duskull/Principal_Brook_Duskull.jpeg",
+      "assets/pokemon/CPL/9972_Brook Duskull/Brook_Dusk2222ull.jpeg",
+      "assets/pokemon/CPL/9972_Brook Duskull/Brook_Dusk2ull.jpeg",
+      "assets/pokemon/CPL/9972_Brook Duskull/Brook_Duskull.jpeg"
+    ],
+    "generation": 9,
+    "types": [
+      "Especial"
+    ]
+  },
+  {
     "id": "9973",
     "name": "Togepi Halloween",
     "folder": "175_Togepi_Halloween",
@@ -4237,21 +4252,6 @@ const cplData = [
       "assets/pokemon/CPL/658_Ash_Greninja/658_Ash_Greninja_2.jpg",
       "assets/pokemon/CPL/658_Ash_Greninja/658_Ash_Greninja_3.jpg",
       "assets/pokemon/CPL/658_Ash_Greninja/658_Ash_Greninja_4.jpg"
-    ],
-    "generation": 6,
-    "types": [
-      "Especial"
-    ]
-  },
-  {
-    "id": "9976",
-    "name": "Brook Duskull",
-    "folder": "9976_Brook Duskull",
-    "images": [
-      "assets/pokemon/CPL/9976_Brook Duskull/Principal_Brook_Duskull.jpeg",
-      "assets/pokemon/CPL/9976_Brook Duskull/Brook_Dusk2222ull.jpeg",
-      "assets/pokemon/CPL/9976_Brook Duskull/Brook_Dusk2ull.jpeg",
-      "assets/pokemon/CPL/9976_Brook Duskull/Brook_Duskull.jpeg"
     ],
     "generation": 6,
     "types": [
