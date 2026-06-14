@@ -3555,6 +3555,69 @@ const cplData = [
     ]
   },
   {
+    "id": "438",
+    "name": "Bonsly",
+    "folder": "438_Bonsly",
+    "images": [
+      "assets/pokemon/CPL/438_Bonsly/Principal_Bonsly.jpeg",
+      "assets/pokemon/CPL/438_Bonsly/Bonsl1y.jpeg",
+      "assets/pokemon/CPL/438_Bonsly/Bonsly.jpeg",
+      "assets/pokemon/CPL/438_Bonsly/Bonsly2.jpeg"
+    ],
+    "generation": 4,
+    "types": [
+      "Roca"
+    ]
+  },
+  {
+    "id": "439",
+    "name": "Mime Jr",
+    "folder": "439_Mime Jr",
+    "images": [
+      "assets/pokemon/CPL/439_Mime Jr/Mime Jr (1).jpeg",
+      "assets/pokemon/CPL/439_Mime Jr/Mime Jr (2).jpeg",
+      "assets/pokemon/CPL/439_Mime Jr/Mime Jr (4).jpeg",
+      "assets/pokemon/CPL/439_Mime Jr/Mime Jr (5).jpeg",
+      "assets/pokemon/CPL/439_Mime Jr/Portada_Mime Jr (3).jpeg"
+    ],
+    "generation": 4,
+    "types": [
+      "Ps\u00edquico",
+      "Hada"
+    ]
+  },
+  {
+    "id": "446",
+    "name": "Munchlax",
+    "folder": "446_Munchlax",
+    "images": [
+      "assets/pokemon/CPL/446_Munchlax/Principal_Munchlax (2).jpeg",
+      "assets/pokemon/CPL/446_Munchlax/Munchlax (1).jpeg",
+      "assets/pokemon/CPL/446_Munchlax/Munchlax (3).jpeg",
+      "assets/pokemon/CPL/446_Munchlax/Munchlax (4).jpeg"
+    ],
+    "generation": 4,
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": "447",
+    "name": "Riolu",
+    "folder": "447_Riolu",
+    "images": [
+      "assets/pokemon/CPL/447_Riolu/Principal_Riolu (1).jpeg",
+      "assets/pokemon/CPL/447_Riolu/Riolu (2).jpeg",
+      "assets/pokemon/CPL/447_Riolu/Riolu (3).jpeg",
+      "assets/pokemon/CPL/447_Riolu/Riolu (4).jpeg",
+      "assets/pokemon/CPL/447_Riolu/Riolu.jpg"
+    ],
+    "generation": 4,
+    "types": [
+      "Lucha"
+    ]
+  },
+  {
     "id": "479",
     "name": "Rotom",
     "folder": "479_Rotom",
