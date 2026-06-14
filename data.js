@@ -3574,11 +3574,11 @@ const cplData = [
     "name": "Mime Jr",
     "folder": "439_Mime Jr",
     "images": [
+      "assets/pokemon/CPL/439_Mime Jr/Principal_Mime Jr (3).jpeg",
       "assets/pokemon/CPL/439_Mime Jr/Mime Jr (1).jpeg",
       "assets/pokemon/CPL/439_Mime Jr/Mime Jr (2).jpeg",
       "assets/pokemon/CPL/439_Mime Jr/Mime Jr (4).jpeg",
-      "assets/pokemon/CPL/439_Mime Jr/Mime Jr (5).jpeg",
-      "assets/pokemon/CPL/439_Mime Jr/Portada_Mime Jr (3).jpeg"
+      "assets/pokemon/CPL/439_Mime Jr/Mime Jr (5).jpeg"
     ],
     "generation": 4,
     "types": [
