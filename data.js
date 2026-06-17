@@ -3618,6 +3618,23 @@ const cplData = [
     ]
   },
   {
+    "id": "458",
+    "name": "Mantyke",
+    "folder": "458_Mantyke",
+    "images": [
+      "assets/pokemon/CPL/458_Mantyke/Principal_Mantyke.jpeg",
+      "assets/pokemon/CPL/458_Mantyke/M2ant2y2ke.jpeg",
+      "assets/pokemon/CPL/458_Mantyke/M2ant2yke.jpeg",
+      "assets/pokemon/CPL/458_Mantyke/M2antyke.jpeg",
+      "assets/pokemon/CPL/458_Mantyke/Mantyke.jpeg"
+    ],
+    "generation": 4,
+    "types": [
+      "Agua",
+      "Volador"
+    ]
+  },
+  {
     "id": "479",
     "name": "Rotom",
     "folder": "479_Rotom",
@@ -3649,6 +3666,35 @@ const cplData = [
     "generation": 4,
     "types": [
       "Normal"
+    ]
+  },
+  {
+    "id": "487",
+    "name": "Giratina",
+    "folder": "487_Giratina",
+    "images": [
+      "assets/pokemon/CPL/487_Giratina/Principal_Giratina.jpeg",
+      "assets/pokemon/CPL/487_Giratina/Girati2na.jpeg",
+      "assets/pokemon/CPL/487_Giratina/Giratin2a.jpeg",
+      "assets/pokemon/CPL/487_Giratina/Giratina.jpeg"
+    ],
+    "generation": 4,
+    "types": [
+      "Fantasma",
+      "Drag\u00f3n"
+    ]
+  },
+  {
+    "id": "487",
+    "name": "Shinny Giratina",
+    "folder": "487_Shinny_Giratina",
+    "images": [
+      "assets/pokemon/CPL/487_Shinny_Giratina/Principal_Shinny_Giratina.jpeg"
+    ],
+    "generation": 4,
+    "types": [
+      "Fantasma",
+      "Drag\u00f3n"
     ]
   },
   {
