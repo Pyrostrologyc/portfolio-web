@@ -5573,5 +5573,19 @@ const looneyPeakyData = [
     ],
     "reel": "https://www.instagram.com/p/DZVTWM6tcai/",
     "tiktok": "https://www.tiktok.com/@pyros3d/video/7649072847649901846?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
+  },
+  {
+    "id": null,
+    "name": "Lola Bunny Peaky Blinders",
+    "folder": "Lola Bunny - Peaky Blinders",
+    "images": [
+      "assets/Looney Tunes/Peaky Blinders/Lola Bunny - Peaky Blinders/Principal_Lola Bunny (2).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Lola Bunny - Peaky Blinders/Lola Bunny (1).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Lola Bunny - Peaky Blinders/Lola Bunny (3).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Lola Bunny - Peaky Blinders/Lola Bunny (4).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Lola Bunny - Peaky Blinders/Lola Bunny (5).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/DZnWqoHthTg/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7651222873217994006?lang=es"
   }
 ];
