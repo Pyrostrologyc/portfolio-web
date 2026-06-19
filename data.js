@@ -2075,6 +2075,19 @@ const n3dData = [
     ]
   },
   {
+    "id": "239",
+    "name": "Elekid",
+    "folder": "239_Elekid",
+    "images": [
+      "assets/pokemon/N3D/239_Elekid/Principal_Elekid.jpg",
+      "assets/pokemon/N3D/239_Elekid/Elekid.png"
+    ],
+    "generation": 2,
+    "types": [
+      "El\u00e9ctrico"
+    ]
+  },
+  {
     "id": "243",
     "name": "Raikou",
     "folder": "243_Raikou",
@@ -4249,6 +4262,22 @@ const cplData = [
     ]
   },
   {
+    "id": "915",
+    "name": "Lechonk",
+    "folder": "915_Lechonk",
+    "images": [
+      "assets/pokemon/CPL/915_Lechonk/Principal_Lechonk.jpeg",
+      "assets/pokemon/CPL/915_Lechonk/Lec2on2k.jpeg",
+      "assets/pokemon/CPL/915_Lechonk/Lechon2k.jpeg",
+      "assets/pokemon/CPL/915_Lechonk/Lechonk.jpeg",
+      "assets/pokemon/CPL/915_Lechonk/LechonkPallete.jpg"
+    ],
+    "generation": 9,
+    "types": [
+      "Normal"
+    ]
+  },
+  {
     "id": "1026",
     "name": "Browt",
     "folder": "1026_Browt",
@@ -5491,101 +5520,3 @@ const amigurumiHuntrxData = [
 ];
 
 const amigurumiMarvelDCData = [];
-
-const looneyPeakyData = [
-  {
-    "id": null,
-    "name": "Bugs Bunny Peaky Blinders",
-    "folder": "Bugs Bunny - Peaky Blinders",
-    "images": [
-      "assets/Looney Tunes/Peaky Blinders/Bugs Bunny - Peaky Blinders/Principal_Bugs Bunny - Peaky Blinders (4).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Bugs Bunny - Peaky Blinders/Bugs Bunny - Peaky Blinders (1).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Bugs Bunny - Peaky Blinders/Bugs Bunny - Peaky Blinders (2).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Bugs Bunny - Peaky Blinders/Bugs Bunny - Peaky Blinders (3).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Bugs Bunny - Peaky Blinders/Bugs Bunny - Peaky Blinders (5).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DYxTTRsNwgh/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7642681350801132822?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
-  },
-  {
-    "id": null,
-    "name": "Daffy Peaky Blinders",
-    "folder": "Daffy - Peaky Blinders",
-    "images": [
-      "assets/Looney Tunes/Peaky Blinders/Daffy - Peaky Blinders/Principal_Daffy - Peaky Blinders (3).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Daffy - Peaky Blinders/Daffy - Peaky Blinders (1).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Daffy - Peaky Blinders/Daffy - Peaky Blinders (4).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Daffy - Peaky Blinders/Daffy - Peaky Blinders (5).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DYP2ac8N_F3/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7639072985931975958"
-  },
-  {
-    "id": null,
-    "name": "Granny Peaky Blinders",
-    "folder": "Granny - Peaky Blinders",
-    "images": [
-      "assets/Looney Tunes/Peaky Blinders/Granny - Peaky Blinders/Principal_Granny Peaky Blinders (2).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Granny - Peaky Blinders/Granny Peaky Blinders (1).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Granny - Peaky Blinders/Granny Peaky Blinders (3).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Granny - Peaky Blinders/Granny Peaky Blinders (4).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DY5AwFANPc9/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7644645393392815382?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
-  },
-  {
-    "id": null,
-    "name": "Porky Peaky Blinders",
-    "folder": "Porky - Peaky Blinders",
-    "images": [
-      "assets/Looney Tunes/Peaky Blinders/Porky - Peaky Blinders/Principal_Porky - Peaky Blinders (2).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Porky - Peaky Blinders/Porky - Peaky Blinders (1).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Porky - Peaky Blinders/Porky - Peaky Blinders (3).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Porky - Peaky Blinders/Porky - Peaky Blinders (4).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Porky - Peaky Blinders/Porky - Peaky Blinders (5).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DZDT7ZANvcO/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7645741851705707798?lang=es"
-  },
-  {
-    "id": null,
-    "name": "Taz Peaky Blinders",
-    "folder": "Taz - Peaky Blinders",
-    "images": [
-      "assets/Looney Tunes/Peaky Blinders/Taz - Peaky Blinders/Principal_Taz Peaky Blinders (2).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Taz - Peaky Blinders/Taz Peaky Blinders (1).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Taz - Peaky Blinders/Taz Peaky Blinders (3).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Taz - Peaky Blinders/Taz Peaky Blinders (4).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Taz - Peaky Blinders/Taz Peaky Blinders (5).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DYC4lCyuYob/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7636879406497156374?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
-  },
-  {
-    "id": null,
-    "name": "Yosemite Sam Peaky Blinders",
-    "folder": "Yosemite Sam - Peaky Blinders",
-    "images": [
-      "assets/Looney Tunes/Peaky Blinders/Yosemite Sam - Peaky Blinders/Principal_Yosemite Sam (2).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Yosemite Sam - Peaky Blinders/Yosemite Sam (1).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Yosemite Sam - Peaky Blinders/Yosemite Sam (3).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Yosemite Sam - Peaky Blinders/Yosemite Sam (4).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DZVTWM6tcai/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7649072847649901846?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
-  },
-  {
-    "id": null,
-    "name": "Lola Bunny Peaky Blinders",
-    "folder": "Lola Bunny - Peaky Blinders",
-    "images": [
-      "assets/Looney Tunes/Peaky Blinders/Lola Bunny - Peaky Blinders/Principal_Lola Bunny (2).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Lola Bunny - Peaky Blinders/Lola Bunny (1).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Lola Bunny - Peaky Blinders/Lola Bunny (3).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Lola Bunny - Peaky Blinders/Lola Bunny (4).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Lola Bunny - Peaky Blinders/Lola Bunny (5).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DZnWqoHthTg/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7651222873217994006?lang=es"
-  }
-];
