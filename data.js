@@ -40,6 +40,21 @@ const n3dData = [
     ]
   },
   {
+    "id": "003",
+    "name": "Venusaur Clone",
+    "folder": "003_Venusaur Clone",
+    "images": [
+      "assets/pokemon/N3D/003_Venusaur Clone/Principal_Clone Venusaur (2).jpeg",
+      "assets/pokemon/N3D/003_Venusaur Clone/Clone Venusaur (1).jpeg",
+      "assets/pokemon/N3D/003_Venusaur Clone/Clone Venusaur (3).jpeg"
+    ],
+    "generation": 1,
+    "types": [
+      "Planta",
+      "Veneno"
+    ]
+  },
+  {
     "id": "004",
     "name": "Charmander",
     "folder": "004_Charmander",
@@ -70,6 +85,21 @@ const n3dData = [
     "folder": "006_Charizard",
     "images": [
       "assets/pokemon/N3D/006_Charizard/006_Charizard.jpg"
+    ],
+    "generation": 1,
+    "types": [
+      "Fuego",
+      "Volador"
+    ]
+  },
+  {
+    "id": "006",
+    "name": "Charizard Clone",
+    "folder": "006_Charizard Clone",
+    "images": [
+      "assets/pokemon/N3D/006_Charizard Clone/Principal_Charizard Clone.jpeg",
+      "assets/pokemon/N3D/006_Charizard Clone/Charizard Clon2e2.jpeg",
+      "assets/pokemon/N3D/006_Charizard Clone/Charizard Clone2.jpeg"
     ],
     "generation": 1,
     "types": [
@@ -148,6 +178,20 @@ const n3dData = [
     "folder": "009_Blastoise",
     "images": [
       "assets/pokemon/N3D/009_Blastoise/009_Blastoise.jpg"
+    ],
+    "generation": 1,
+    "types": [
+      "Agua"
+    ]
+  },
+  {
+    "id": "009",
+    "name": "Blastoise Clone",
+    "folder": "009_Blastoise Clone",
+    "images": [
+      "assets/pokemon/N3D/009_Blastoise Clone/Principal_Blastoise Clone (1).png",
+      "assets/pokemon/N3D/009_Blastoise Clone/Blastoise Clone (1).jpeg",
+      "assets/pokemon/N3D/009_Blastoise Clone/Blastoise Clone (2).jpeg"
     ],
     "generation": 1,
     "types": [
@@ -1282,6 +1326,19 @@ const n3dData = [
     "images": [
       "assets/pokemon/N3D/096_Drowzee/Principal_Drowzee (1).jpg",
       "assets/pokemon/N3D/096_Drowzee/Drowzee (2).jpg"
+    ],
+    "generation": 1,
+    "types": [
+      "Ps\u00edquico"
+    ]
+  },
+  {
+    "id": "097",
+    "name": "Hypno",
+    "folder": "097_Hypno",
+    "images": [
+      "assets/pokemon/N3D/097_Hypno/Principal_Hypno.jpeg",
+      "assets/pokemon/N3D/097_Hypno/Hypno.jpeg"
     ],
     "generation": 1,
     "types": [
@@ -2767,6 +2824,19 @@ const n3dData = [
     "types": [
       "Hada",
       "Acero"
+    ]
+  },
+  {
+    "id": "9995",
+    "name": "Iron Man Pokeball",
+    "folder": "9995_Iron Man Pokeball",
+    "images": [
+      "assets/pokemon/N3D/9995_Iron Man Pokeball/Principal_Iron Man.jpeg",
+      "assets/pokemon/N3D/9995_Iron Man Pokeball/Iron Man.jpeg"
+    ],
+    "generation": 9,
+    "types": [
+      "Especial"
     ]
   },
   {
