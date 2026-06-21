@@ -4869,6 +4869,20 @@ const looneyData = [
 const looneyCrossoversData = [
   {
     "id": null,
+    "name": "Bat Daffy",
+    "folder": "Bat Daffy",
+    "images": [
+      "assets/Looney Tunes/Crossovers/Bat Daffy/Principal_Bat Daffy (1).jpg",
+      "assets/Looney Tunes/Crossovers/Bat Daffy/Bat Daffy (2).jpg",
+      "assets/Looney Tunes/Crossovers/Bat Daffy/Bat Daffy (3).jpg",
+      "assets/Looney Tunes/Crossovers/Bat Daffy/Bat Daffy (4).jpg",
+      "assets/Looney Tunes/Crossovers/Bat Daffy/Bat Daffy (5).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/DZxsPorNR5q/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7652836509405482262?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
+  },
+  {
+    "id": null,
     "name": "Capt. Coyote",
     "folder": "Capt. Coyote",
     "images": [
