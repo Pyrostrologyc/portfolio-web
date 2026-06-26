@@ -2991,6 +2991,45 @@ const cplData = [
     ]
   },
   {
+    "id": "074",
+    "name": "Geodude",
+    "folder": "074_Geodude",
+    "images": [
+      "assets/pokemon/CPL/074_Geodude/Principal_Geodude.jpeg"
+    ],
+    "generation": 1,
+    "types": [
+      "Roca",
+      "Tierra"
+    ]
+  },
+  {
+    "id": "075",
+    "name": "Graveler",
+    "folder": "075_Graveler",
+    "images": [
+      "assets/pokemon/CPL/075_Graveler/Principal_Graveler.jpeg"
+    ],
+    "generation": 1,
+    "types": [
+      "Roca",
+      "Tierra"
+    ]
+  },
+  {
+    "id": "076",
+    "name": "Golem",
+    "folder": "076_Golem",
+    "images": [
+      "assets/pokemon/CPL/076_Golem/Principal_Golem.jpeg"
+    ],
+    "generation": 1,
+    "types": [
+      "Roca",
+      "Tierra"
+    ]
+  },
+  {
     "id": "078",
     "name": "Rapidash",
     "folder": "078_Rapidash",
@@ -3035,6 +3074,18 @@ const cplData = [
     "types": [
       "Fantasma",
       "Veneno"
+    ]
+  },
+  {
+    "id": "107",
+    "name": "Hitmonchan",
+    "folder": "107_Hitmonchan",
+    "images": [
+      "assets/pokemon/CPL/107_Hitmonchan/Principal_Hitmonchan.jpeg"
+    ],
+    "generation": 1,
+    "types": [
+      "Lucha"
     ]
   },
   {
@@ -3215,6 +3266,18 @@ const cplData = [
     "types": [
       "Veneno",
       "Volador"
+    ]
+  },
+  {
+    "id": "181",
+    "name": "Ampharos",
+    "folder": "181_Ampharos",
+    "images": [
+      "assets/pokemon/CPL/181_Ampharos/Principal_Ampharos.jpeg"
+    ],
+    "generation": 2,
+    "types": [
+      "El\u00e9ctrico"
     ]
   },
   {
@@ -3623,6 +3686,19 @@ const cplData = [
     ]
   },
   {
+    "id": "425",
+    "name": "Drifloon",
+    "folder": "425_Drifloon",
+    "images": [
+      "assets/pokemon/CPL/425_Drifloon/Principal_Drifloon.jpeg"
+    ],
+    "generation": 4,
+    "types": [
+      "Fantasma",
+      "Volador"
+    ]
+  },
+  {
     "id": "428",
     "name": "Lopunny",
     "folder": "428_Lopunny",
@@ -3670,6 +3746,19 @@ const cplData = [
     ]
   },
   {
+    "id": "443",
+    "name": "Gible",
+    "folder": "443_Gible",
+    "images": [
+      "assets/pokemon/CPL/443_Gible/Principal_Gible.jpeg"
+    ],
+    "generation": 4,
+    "types": [
+      "Drag\u00f3n",
+      "Tierra"
+    ]
+  },
+  {
     "id": "446",
     "name": "Munchlax",
     "folder": "446_Munchlax",
@@ -3698,6 +3787,19 @@ const cplData = [
     "generation": 4,
     "types": [
       "Lucha"
+    ]
+  },
+  {
+    "id": "448",
+    "name": "Lucario",
+    "folder": "448_Lucario",
+    "images": [
+      "assets/pokemon/CPL/448_Lucario/Principal_Lucario.jpeg"
+    ],
+    "generation": 4,
+    "types": [
+      "Lucha",
+      "Acero"
     ]
   },
   {
@@ -4136,6 +4238,24 @@ const cplData = [
     ]
   },
   {
+    "id": "760",
+    "name": "Bewear",
+    "folder": "760_Bewear",
+    "images": [
+      "assets/pokemon/CPL/760_Bewear/0bb1aba39c10b86c.webp",
+      "assets/pokemon/CPL/760_Bewear/27667955bf6c56af.webp",
+      "assets/pokemon/CPL/760_Bewear/4ebcac2baf1befa7.webp",
+      "assets/pokemon/CPL/760_Bewear/a29ba91c6cb7db3a.webp",
+      "assets/pokemon/CPL/760_Bewear/ac87130f96fcfa7e.webp",
+      "assets/pokemon/CPL/760_Bewear/e4b35c542aa62963.webp"
+    ],
+    "generation": 7,
+    "types": [
+      "Normal",
+      "Lucha"
+    ]
+  },
+  {
     "id": "789",
     "name": "Cosmog",
     "folder": "789_Cosmog",
@@ -4271,6 +4391,32 @@ const cplData = [
     "types": [
       "El\u00e9ctrico",
       "Veneno"
+    ]
+  },
+  {
+    "id": "872",
+    "name": "Snom",
+    "folder": "872_Snom",
+    "images": [
+      "assets/pokemon/CPL/872_Snom/Snom.png"
+    ],
+    "generation": 8,
+    "types": [
+      "Hielo",
+      "Bicho"
+    ]
+  },
+  {
+    "id": "877",
+    "name": "Morpeko",
+    "folder": "877_Morpeko",
+    "images": [
+      "assets/pokemon/CPL/877_Morpeko/Morpeko.jpg"
+    ],
+    "generation": 8,
+    "types": [
+      "El\u00e9ctrico",
+      "Siniestro"
     ]
   },
   {
@@ -4509,6 +4655,18 @@ const cplData = [
       "assets/pokemon/CPL/9979_Poncho_Pikachu_Jolteon/Poncho_Eevee_Jolteo2222n.png",
       "assets/pokemon/CPL/9979_Poncho_Pikachu_Jolteon/Poncho_Eevee_Jolteo22n.png",
       "assets/pokemon/CPL/9979_Poncho_Pikachu_Jolteon/Poncho_Eevee_Jolteon.png"
+    ],
+    "generation": 9,
+    "types": [
+      "Especial"
+    ]
+  },
+  {
+    "id": "9980",
+    "name": "Pochita",
+    "folder": "9980_Pochita",
+    "images": [
+      "assets/pokemon/CPL/9980_Pochita/Pochita.jpg"
     ],
     "generation": 9,
     "types": [
