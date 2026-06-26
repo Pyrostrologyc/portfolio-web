@@ -4238,24 +4238,6 @@ const cplData = [
     ]
   },
   {
-    "id": "760",
-    "name": "Bewear",
-    "folder": "760_Bewear",
-    "images": [
-      "assets/pokemon/CPL/760_Bewear/0bb1aba39c10b86c.webp",
-      "assets/pokemon/CPL/760_Bewear/27667955bf6c56af.webp",
-      "assets/pokemon/CPL/760_Bewear/4ebcac2baf1befa7.webp",
-      "assets/pokemon/CPL/760_Bewear/a29ba91c6cb7db3a.webp",
-      "assets/pokemon/CPL/760_Bewear/ac87130f96fcfa7e.webp",
-      "assets/pokemon/CPL/760_Bewear/e4b35c542aa62963.webp"
-    ],
-    "generation": 7,
-    "types": [
-      "Normal",
-      "Lucha"
-    ]
-  },
-  {
     "id": "789",
     "name": "Cosmog",
     "folder": "789_Cosmog",
@@ -4391,32 +4373,6 @@ const cplData = [
     "types": [
       "El\u00e9ctrico",
       "Veneno"
-    ]
-  },
-  {
-    "id": "872",
-    "name": "Snom",
-    "folder": "872_Snom",
-    "images": [
-      "assets/pokemon/CPL/872_Snom/Snom.png"
-    ],
-    "generation": 8,
-    "types": [
-      "Hielo",
-      "Bicho"
-    ]
-  },
-  {
-    "id": "877",
-    "name": "Morpeko",
-    "folder": "877_Morpeko",
-    "images": [
-      "assets/pokemon/CPL/877_Morpeko/Morpeko.jpg"
-    ],
-    "generation": 8,
-    "types": [
-      "El\u00e9ctrico",
-      "Siniestro"
     ]
   },
   {
@@ -4655,18 +4611,6 @@ const cplData = [
       "assets/pokemon/CPL/9979_Poncho_Pikachu_Jolteon/Poncho_Eevee_Jolteo2222n.png",
       "assets/pokemon/CPL/9979_Poncho_Pikachu_Jolteon/Poncho_Eevee_Jolteo22n.png",
       "assets/pokemon/CPL/9979_Poncho_Pikachu_Jolteon/Poncho_Eevee_Jolteon.png"
-    ],
-    "generation": 9,
-    "types": [
-      "Especial"
-    ]
-  },
-  {
-    "id": "9980",
-    "name": "Pochita",
-    "folder": "9980_Pochita",
-    "images": [
-      "assets/pokemon/CPL/9980_Pochita/Pochita.jpg"
     ],
     "generation": 9,
     "types": [
