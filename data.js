@@ -5036,6 +5036,18 @@ const looneyCrossoversData = [
     ],
     "reel": "https://www.instagram.com/p/DX7NaLhtcq3/",
     "tiktok": "https://www.tiktok.com/@pyros3d/video/7636070786121420054?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
+  },
+  {
+    "id": null,
+    "name": "Lola Rabbit",
+    "folder": "Lola Rabbit",
+    "images": [
+      "assets/Looney Tunes/Crossovers/Lola Rabbit/Principal_Lola Rabbit (1).jpg",
+      "assets/Looney Tunes/Crossovers/Lola Rabbit/Lola Rabbit (2).jpg",
+      "assets/Looney Tunes/Crossovers/Lola Rabbit/Lola Rabbit (3).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/DaLZWwfNM6o/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7656527547655572758?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
   }
 ];
 
