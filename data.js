@@ -5048,6 +5048,20 @@ const looneyCrossoversData = [
     ],
     "reel": "https://www.instagram.com/p/DaLZWwfNM6o/",
     "tiktok": "https://www.tiktok.com/@pyros3d/video/7656527547655572758?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
+  },
+  {
+    "id": null,
+    "name": "Bugs The Godfather",
+    "folder": "Bugs The Godfather",
+    "images": [
+      "assets/Looney Tunes/Crossovers/Bugs The Godfather/Principal_Bugs The Gradfather (2).jpg",
+      "assets/Looney Tunes/Crossovers/Bugs The Godfather/Bugs The Gradfather (1).jpg",
+      "assets/Looney Tunes/Crossovers/Bugs The Godfather/Bugs The Gradfather (3).jpg",
+      "assets/Looney Tunes/Crossovers/Bugs The Godfather/Bugs The Gradfather (4).jpg",
+      "assets/Looney Tunes/Crossovers/Bugs The Godfather/Bugs The Gradfather (5).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/DaatoEyNFWR/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7658755649773358358?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
   }
 ];
 
