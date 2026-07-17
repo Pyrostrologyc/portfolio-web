@@ -5160,6 +5160,19 @@ const looneyPeakyData = [
     ],
     "reel": "https://www.instagram.com/p/DZVTWM6tcai/",
     "tiktok": "https://www.tiktok.com/@pyros3d/video/7649072847649901846?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
+  },
+  {
+    "id": null,
+    "name": "Wile E. Coyote - Peaky Blinders",
+    "folder": "Wile E. Coyote - Peaky Blinders",
+    "images": [
+      "assets/Looney Tunes/Peaky Blinders/Wile E. Coyote - Peaky Blinders/Principal_Wile E. Coyote (3).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Wile E. Coyote - Peaky Blinders/Wile E. Coyote (1).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Wile E. Coyote - Peaky Blinders/Wile E. Coyote (2).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Wile E. Coyote - Peaky Blinders/Wile E. Coyote (4).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/Dax826ttx1i/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7662327403418586390"
   }
 ];
 
