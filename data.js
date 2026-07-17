@@ -5166,9 +5166,9 @@ const looneyPeakyData = [
     "name": "Wile E. Coyote - Peaky Blinders",
     "folder": "Wile E. Coyote - Peaky Blinders",
     "images": [
-      "assets/Looney Tunes/Peaky Blinders/Wile E. Coyote - Peaky Blinders/Principal_Wile E. Coyote (3).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Wile E. Coyote - Peaky Blinders/Principal_Wile E. Coyote (2).jpg",
       "assets/Looney Tunes/Peaky Blinders/Wile E. Coyote - Peaky Blinders/Wile E. Coyote (1).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Wile E. Coyote - Peaky Blinders/Wile E. Coyote (2).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Wile E. Coyote - Peaky Blinders/Wile E. Coyote (3).jpg",
       "assets/Looney Tunes/Peaky Blinders/Wile E. Coyote - Peaky Blinders/Wile E. Coyote (4).jpg"
     ],
     "reel": "https://www.instagram.com/p/Dax826ttx1i/",
