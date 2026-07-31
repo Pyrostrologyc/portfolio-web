@@ -2264,6 +2264,19 @@ const n3dData = [
     ]
   },
   {
+    "id": "258",
+    "name": "Mudkip",
+    "folder": "258_Mudkip",
+    "images": [
+      "assets/pokemon/N3D/258_Mudkip/Principal_Mudkip.png",
+      "assets/pokemon/N3D/258_Mudkip/Mudkip.png"
+    ],
+    "generation": 3,
+    "types": [
+      "Agua"
+    ]
+  },
+  {
     "id": "282",
     "name": "Gardevoir",
     "folder": "282_Gardevoir",
@@ -2498,6 +2511,19 @@ const n3dData = [
     "types": [
       "Drag\u00f3n",
       "Tierra"
+    ]
+  },
+  {
+    "id": "447",
+    "name": "Riolu",
+    "folder": "447_Riolu",
+    "images": [
+      "assets/pokemon/N3D/447_Riolu/Principal_Riolu.png",
+      "assets/pokemon/N3D/447_Riolu/Riolu.png"
+    ],
+    "generation": 4,
+    "types": [
+      "Lucha"
     ]
   },
   {
@@ -2902,6 +2928,21 @@ const n3dData = [
 
 const cplData = [
   {
+    "id": "004",
+    "name": "Charmander",
+    "folder": "004_Charmander",
+    "images": [
+      "assets/pokemon/CPL/004_Charmander/Principal_Charmander.jpeg",
+      "assets/pokemon/CPL/004_Charmander/Charmander.jpeg",
+      "assets/pokemon/CPL/004_Charmander/Charmander2.jpeg",
+      "assets/pokemon/CPL/004_Charmander/Charmander3.jpeg"
+    ],
+    "generation": 1,
+    "types": [
+      "Fuego"
+    ]
+  },
+  {
     "id": "006",
     "name": "Mega Charizard X",
     "folder": "006_Mega_Charizard_X",
@@ -2974,6 +3015,23 @@ const cplData = [
     "generation": 1,
     "types": [
       "El\u00e9ctrico"
+    ]
+  },
+  {
+    "id": "039",
+    "name": "Jigglypuff",
+    "folder": "039_Jigglypuff",
+    "images": [
+      "assets/pokemon/CPL/039_Jigglypuff/Principal_Jigglypuff (1).jpeg",
+      "assets/pokemon/CPL/039_Jigglypuff/Jigglypuff (2).jpeg",
+      "assets/pokemon/CPL/039_Jigglypuff/Jigglypuff (3).jpeg",
+      "assets/pokemon/CPL/039_Jigglypuff/Jigglypuff (4).jpeg",
+      "assets/pokemon/CPL/039_Jigglypuff/Jigglypuff (5).jpeg"
+    ],
+    "generation": 1,
+    "types": [
+      "Normal",
+      "Hada"
     ]
   },
   {
@@ -3086,6 +3144,23 @@ const cplData = [
     "generation": 1,
     "types": [
       "Lucha"
+    ]
+  },
+  {
+    "id": "122",
+    "name": "Mr. Mime",
+    "folder": "122_Mr. Mime",
+    "images": [
+      "assets/pokemon/CPL/122_Mr. Mime/Principal_Mr. Mime (5).jpeg",
+      "assets/pokemon/CPL/122_Mr. Mime/Mr. Mime (1).jpeg",
+      "assets/pokemon/CPL/122_Mr. Mime/Mr. Mime (2).jpeg",
+      "assets/pokemon/CPL/122_Mr. Mime/Mr. Mime (3).jpeg",
+      "assets/pokemon/CPL/122_Mr. Mime/Mr. Mime (4).jpeg"
+    ],
+    "generation": 1,
+    "types": [
+      "Ps\u00edquico",
+      "Hada"
     ]
   },
   {
@@ -4985,6 +5060,20 @@ const looneyCrossoversData = [
   },
   {
     "id": null,
+    "name": "Bugs The Godfather",
+    "folder": "Bugs The Godfather",
+    "images": [
+      "assets/Looney Tunes/Crossovers/Bugs The Godfather/Principal_Bugs The Gradfather (2).jpg",
+      "assets/Looney Tunes/Crossovers/Bugs The Godfather/Bugs The Gradfather (1).jpg",
+      "assets/Looney Tunes/Crossovers/Bugs The Godfather/Bugs The Gradfather (3).jpg",
+      "assets/Looney Tunes/Crossovers/Bugs The Godfather/Bugs The Gradfather (4).jpg",
+      "assets/Looney Tunes/Crossovers/Bugs The Godfather/Bugs The Gradfather (5).jpg"
+    ],
+    "reel": "#",
+    "tiktok": null
+  },
+  {
+    "id": null,
     "name": "Capt. Coyote",
     "folder": "Capt. Coyote",
     "images": [
@@ -5012,6 +5101,18 @@ const looneyCrossoversData = [
   },
   {
     "id": null,
+    "name": "Lola Rabbit",
+    "folder": "Lola Rabbit",
+    "images": [
+      "assets/Looney Tunes/Crossovers/Lola Rabbit/Principal_Lola Rabbit (1).jpg",
+      "assets/Looney Tunes/Crossovers/Lola Rabbit/Lola Rabbit (2).jpg",
+      "assets/Looney Tunes/Crossovers/Lola Rabbit/Lola Rabbit (3).jpg"
+    ],
+    "reel": "#",
+    "tiktok": null
+  },
+  {
+    "id": null,
     "name": "MJ Bunny",
     "folder": "MJ Bunny",
     "images": [
@@ -5036,32 +5137,6 @@ const looneyCrossoversData = [
     ],
     "reel": "https://www.instagram.com/p/DX7NaLhtcq3/",
     "tiktok": "https://www.tiktok.com/@pyros3d/video/7636070786121420054?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
-  },
-  {
-    "id": null,
-    "name": "Lola Rabbit",
-    "folder": "Lola Rabbit",
-    "images": [
-      "assets/Looney Tunes/Crossovers/Lola Rabbit/Principal_Lola Rabbit (1).jpg",
-      "assets/Looney Tunes/Crossovers/Lola Rabbit/Lola Rabbit (2).jpg",
-      "assets/Looney Tunes/Crossovers/Lola Rabbit/Lola Rabbit (3).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DaLZWwfNM6o/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7656527547655572758?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
-  },
-  {
-    "id": null,
-    "name": "Bugs The Godfather",
-    "folder": "Bugs The Godfather",
-    "images": [
-      "assets/Looney Tunes/Crossovers/Bugs The Godfather/Principal_Bugs The Gradfather (2).jpg",
-      "assets/Looney Tunes/Crossovers/Bugs The Godfather/Bugs The Gradfather (1).jpg",
-      "assets/Looney Tunes/Crossovers/Bugs The Godfather/Bugs The Gradfather (3).jpg",
-      "assets/Looney Tunes/Crossovers/Bugs The Godfather/Bugs The Gradfather (4).jpg",
-      "assets/Looney Tunes/Crossovers/Bugs The Godfather/Bugs The Gradfather (5).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/DaatoEyNFWR/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7658755649773358358?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
   }
 ];
 
@@ -5150,6 +5225,19 @@ const looneyPeakyData = [
   },
   {
     "id": null,
+    "name": "Wile E. Coyote - Peaky Blinders",
+    "folder": "Wile E. Coyote - Peaky Blinders",
+    "images": [
+      "assets/Looney Tunes/Peaky Blinders/Wile E. Coyote - Peaky Blinders/Principal_Wile E. Coyote (2).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Wile E. Coyote - Peaky Blinders/Wile E. Coyote (1).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Wile E. Coyote - Peaky Blinders/Wile E. Coyote (3).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Wile E. Coyote - Peaky Blinders/Wile E. Coyote (4).jpg"
+    ],
+    "reel": "#",
+    "tiktok": null
+  },
+  {
+    "id": null,
     "name": "Yosemite Sam - Peaky Blinders",
     "folder": "Yosemite Sam - Peaky Blinders",
     "images": [
@@ -5160,19 +5248,6 @@ const looneyPeakyData = [
     ],
     "reel": "https://www.instagram.com/p/DZVTWM6tcai/",
     "tiktok": "https://www.tiktok.com/@pyros3d/video/7649072847649901846?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
-  },
-  {
-    "id": null,
-    "name": "Wile E. Coyote - Peaky Blinders",
-    "folder": "Wile E. Coyote - Peaky Blinders",
-    "images": [
-      "assets/Looney Tunes/Peaky Blinders/Wile E. Coyote - Peaky Blinders/Principal_Wile E. Coyote (2).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Wile E. Coyote - Peaky Blinders/Wile E. Coyote (1).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Wile E. Coyote - Peaky Blinders/Wile E. Coyote (3).jpg",
-      "assets/Looney Tunes/Peaky Blinders/Wile E. Coyote - Peaky Blinders/Wile E. Coyote (4).jpg"
-    ],
-    "reel": "https://www.instagram.com/p/Dax826ttx1i/",
-    "tiktok": "https://www.tiktok.com/@pyros3d/video/7662327403418586390"
   }
 ];
 
@@ -5250,7 +5325,8 @@ const urbanVibesData = [
       "assets/Urban Vibes/Goofy Urban CW Prestige/Goofy Urban Vibes (4).jpg",
       "assets/Urban Vibes/Goofy Urban CW Prestige/Goofy Urban Vibes (5).jpg"
     ],
-    "reel": "#"
+    "reel": "#",
+    "tiktok": null
   },
   {
     "id": null,
@@ -5262,7 +5338,22 @@ const urbanVibesData = [
       "assets/Urban Vibes/Goofy_Urban/WhatsApp Image 2025-11-12 at 15.57.49 (3).jpeg",
       "assets/Urban Vibes/Goofy_Urban/WhatsApp Image 2025-11-12 at 15.57.50.jpeg"
     ],
-    "reel": "#"
+    "reel": "#",
+    "tiktok": null
+  },
+  {
+    "id": null,
+    "name": "Mickey Urban CW Prestige",
+    "folder": "Mickey Urban CW Prestige",
+    "images": [
+      "assets/Urban Vibes/Mickey Urban CW Prestige/Principal_Mickey Urban (2).jpg",
+      "assets/Urban Vibes/Mickey Urban CW Prestige/Mickey Urban (1).jpg",
+      "assets/Urban Vibes/Mickey Urban CW Prestige/Mickey Urban (3).jpg",
+      "assets/Urban Vibes/Mickey Urban CW Prestige/Mickey Urban (4).jpg",
+      "assets/Urban Vibes/Mickey Urban CW Prestige/Mickey Urban (5).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/DbTivfGNd4I/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7667270841918360854?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
   },
   {
     "id": null,
@@ -5274,7 +5365,8 @@ const urbanVibesData = [
       "assets/Urban Vibes/Mickey_Urban/Mickey Urban 3.png",
       "assets/Urban Vibes/Mickey_Urban/Mickey Urban.png"
     ],
-    "reel": "#"
+    "reel": "#",
+    "tiktok": null
   }
 ];
 
