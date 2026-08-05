@@ -5367,6 +5367,19 @@ const urbanVibesData = [
     ],
     "reel": "#",
     "tiktok": null
+  },
+  {
+    "id": null,
+    "name": "Minnie Urban CW Prestige",
+    "folder": "Minnie Urban CW Prestige",
+    "images": [
+      "assets/Urban Vibes/Minnie Urban CW Prestige/Principal_Minnie Urban CW Prestige (2).jpg",
+      "assets/Urban Vibes/Minnie Urban CW Prestige/Minnie Urban CW Prestige (1).jpg",
+      "assets/Urban Vibes/Minnie Urban CW Prestige/Minnie Urban CW Prestige (3).jpg",
+      "assets/Urban Vibes/Minnie Urban CW Prestige/Minnie Urban CW Prestige (4).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/Dblb7M-NRar/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7669106937132289302?is_from_webapp=1&sender_device=pc"
   }
 ];
 
