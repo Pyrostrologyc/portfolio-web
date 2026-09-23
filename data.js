@@ -5260,6 +5260,20 @@ const looneyPeakyData = [
     ],
     "reel": "https://www.instagram.com/p/DZVTWM6tcai/",
     "tiktok": "https://www.tiktok.com/@pyros3d/video/7649072847649901846?is_from_webapp=1&sender_device=pc&web_id=7627913697918387734"
+  },
+  {
+    "id": null,
+    "name": "Sylvester - Peaky Blinders",
+    "folder": "Sylvester - Peaky Blinders",
+    "images": [
+      "assets/Looney Tunes/Peaky Blinders/Sylvester - Peaky Blinders/Principal_Silvestre Peaky Blinders (6).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Sylvester - Peaky Blinders/Silvestre Peaky Blinders (1).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Sylvester - Peaky Blinders/Silvestre Peaky Blinders (8).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Sylvester - Peaky Blinders/Silvestre Peaky Blinders (9).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Sylvester - Peaky Blinders/Silvestre Peaky Blinders (10).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/DdjmBV6t2Ly/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7687321427183258902"
   }
 ];
 
