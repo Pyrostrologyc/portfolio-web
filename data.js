@@ -5274,6 +5274,33 @@ const looneyPeakyData = [
     ],
     "reel": "https://www.instagram.com/p/DdjmBV6t2Ly/",
     "tiktok": "https://www.tiktok.com/@pyros3d/video/7687321427183258902"
+  },
+  {
+    "id": null,
+    "name": "Tweety - Peaky Blinders",
+    "folder": "Tweety - Peaky Blinders",
+    "images": [
+      "assets/Looney Tunes/Peaky Blinders/Tweety - Peaky Blinders/Principal_Tweety (2).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Tweety - Peaky Blinders/Tweety (1).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Tweety - Peaky Blinders/Tweety (3).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Tweety - Peaky Blinders/Tweety (4).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/Dd1u-aQRC2b/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7689793445157702934"
+  },
+  {
+    "id": null,
+    "name": "Marvin the Martian - Peaky Blinders",
+    "folder": "Marvin the Martian - Peaky Blinders",
+    "images": [
+      "assets/Looney Tunes/Peaky Blinders/Marvin the Martian - Peaky Blinders/Principal_Marvin el Marciano (2).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Marvin the Martian - Peaky Blinders/Marvin el Marciano (3).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Marvin the Martian - Peaky Blinders/Marvin el Marciano (4).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Marvin the Martian - Peaky Blinders/Marvin el Marciano (5).jpg",
+      "assets/Looney Tunes/Peaky Blinders/Marvin the Martian - Peaky Blinders/Marvin el Marciano (6).jpg"
+    ],
+    "reel": "https://www.instagram.com/p/DeKNqWctsZE/",
+    "tiktok": "https://www.tiktok.com/@pyros3d/video/7693592643867086103"
   }
 ];
 
